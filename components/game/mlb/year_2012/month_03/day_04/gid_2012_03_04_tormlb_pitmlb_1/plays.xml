@@ -1,0 +1,59 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_04_tormlb_pitmlb_1" status_ind="F"  status="Final" inning="9" top_inning="F" b="0" s="0" o="3" inning_state="" event="at_bat_start">
+	<score ar="8" ah="8" ae="0" hr="5" hh="9" he="3" />
+	<players>
+		<batter pid="444844" stand="R" b_height="6-0" ab="3" h="0" avg=".000" boxname="Fox">
+			<ab inning="9" event="Forceout"/>
+			<ab inning="7" event="Strikeout"/>
+			<ab inning="6" event="Flyout"/>
+		</batter>
+		<pitcher pid="445926" p_throws="R" pitches="11" strikes="3" balls="8" era="0.00" boxname="Chavez"/>
+		<deck pid="459943" boxname="Clement"/>
+		<hole pid="460267" boxname="Boggs"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="RISP"/>
+	<atbat num="82" des="Jake Fox grounds into a force out, third baseman Brian Bocock to second baseman Ryan Goins.    Gorkys Hernandez out at 2nd.  " event="Left On Base" player="491676">
+		<p type="X" id="570" x="91.85" y="130.38" des="In play, out(s)"  cc=""/>	</atbat>
+	<field>
+		<offense type="home" id="pit">
+			<man bnum="2" pid="543257" boxname="Grossman" note="Walk" sb="0" cs="0"/>
+		</offense>
+		<defense type="away" id="tor">
+			<man pid="445926" s_po="0" s_ass="0" s_err="0" s_fldg=".000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="518595" s_po="3" s_ass="0" s_err="0" s_fldg="1.000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="519005" s_po="6" s_ass="0" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="572365" s_po="1" s_ass="2" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="502409" s_po="2" s_ass="4" s_err="0" s_fldg="1.000" pos="ss"/>
+			<man pid="501814" s_po="0" s_ass="2" s_err="0" s_fldg="1.000" pos="3b"/>
+			<man pid="451515" s_po="2" s_ass="0" s_err="0" s_fldg="1.000" pos="lf"/>
+			<man pid="543238" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="501213" s_po="2" s_ass="0" s_err="0" s_fldg="1.000" pos="rf"/>
+		</defense>
+		<ball type="G" x="106.43" y="173.69" batter="444844" pitcher="445926"/>
+	</field>
+	<lineup>
+		<team type="home" pitcher="446290" index="4">
+			<man pid="543257"/>
+			<man pid="516782"/>
+			<man pid="491676"/>
+			<man pid="444844"/>
+			<man pid="459943"/>
+			<man pid="460267"/>
+			<man pid="452783"/>
+			<man pid="501605"/>
+			<man pid="474568"/>
+		</team>
+		<team type="away" pitcher="445926" index="6">
+			<man pid="543238"/>
+			<man pid="451515"/>
+			<man pid="501213"/>
+			<man pid="501814"/>
+			<man pid="519005"/>
+			<man pid="450317"/>
+			<man pid="572365"/>
+			<man pid="518595"/>
+			<man pid="502409"/>
+		</team>
+	</lineup>
+	<weather temp="67" condition="Sunny" wind="27mph Out To RF"/>
+	<control wait="10" box="0"/>
+</game>

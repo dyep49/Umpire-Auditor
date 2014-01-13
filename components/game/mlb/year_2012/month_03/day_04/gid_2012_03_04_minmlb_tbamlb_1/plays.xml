@@ -1,0 +1,57 @@
+<!--Copyright 2013 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_04_minmlb_tbamlb_1" status_ind="F"  status="Final" inning="9" top_inning="F" b="0" s="0" o="3" inning_state="" event="at_bat_start">
+	<score ar="5" ah="10" ae="0" hr="3" hh="7" he="0" />
+	<players>
+		<batter pid="460269" team_abbrev="TB" team_id="139" parent_team_abbrev="TB" parent_team_id="139" current_position="3B" stand="R" b_height="6-2" ab="2" h="0" avg=".250" boxname="Gimenez, C">
+			<ab inning="9" event="Groundout"/>
+			<ab inning="7" event="Groundout"/>
+		</batter>
+		<pitcher pid="502272" p_throws="R" pitches="5" strikes="5" balls="0" era="0.00" boxname="Fien"/>
+		<deck pid="455139" boxname="Chirinos"/>
+		<hole pid="488795" boxname="Coon"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="Empty"/>
+	<atbat num="75" des="Chris Gimenez grounds out, shortstop Brian Dozier to first baseman Chris Parmelee.  " des_es="Chris Gimenez batea rodado de out, campo corto Brian Dozier a primera base Chris Parmelee.  " event="null" player="460269">
+		<p type="X" id="465" x="74.68" y="149.38" des="In play, out(s)" des_es="En juego, out(s)"  cc=""/>	</atbat>
+	<field>
+		<offense type="home" id="tba">
+		</offense>
+		<defense type="away" id="min">
+			<man pid="502272" s_po="0" s_ass="0" s_err="0" s_fldg=".000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="453525" s_po="3" s_ass="0" s_err="0" s_fldg="1.000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="476633" s_po="14" s_ass="1" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="458210" s_po="2" s_ass="5" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="572821" s_po="3" s_ass="3" s_err="0" s_fldg="1.000" pos="ss"/>
+			<man pid="465753" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="3b"/>
+			<man pid="454998" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="lf"/>
+			<man pid="501994" s_po="1" s_ass="1" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="542455" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="rf"/>
+		</defense>
+		<ball type="G" x="113.45" y="158.63" batter="460269" pitcher="502272"/>
+	</field>
+	<lineup>
+		<team type="home" pitcher="518961" index="1">
+			<man pid="460269"/>
+			<man pid="455139"/>
+			<man pid="488795"/>
+			<man pid="506673"/>
+			<man pid="471107"/>
+			<man pid="573349"/>
+			<man pid="519390"/>
+			<man pid="502620"/>
+			<man pid="440351"/>
+		</team>
+		<team type="away" pitcher="502272" index="3">
+			<man pid="458210"/>
+			<man pid="572821"/>
+			<man pid="454998"/>
+			<man pid="476633"/>
+			<man pid="465753"/>
+			<man pid="542455"/>
+			<man pid="519221"/>
+			<man pid="453525"/>
+			<man pid="501994"/>
+		</team>
+	</lineup>
+	<weather temp="69" condition="Partly Cloudy" wind="8mph L To R"/>
+	<control wait="10" box="0"/>
+</game>

@@ -1,0 +1,95 @@
+<game status="F" id="2012_03_05_tormlb_detmlb_1" start_time="1:05" ampm="pm" time_zone="ET"  type="S" away_score="2" home_score="4" league="GL" series-code="" series-game-number="1" game-number="1">
+    <ticketlink></ticketlink>
+    <venueShort>Joker Marchant Stadium</venueShort>
+	<venueLong>Joker Marchant Stadium</venueLong>
+	<gallery exists="0" />
+    <broadcast>
+        <home>
+        <tv></tv>
+        <radio>97.1 The Ticket</radio>
+</home>
+        <away>
+        <tv></tv>
+        <radio></radio>
+</away>
+    </broadcast>
+    <probables>
+	    
+	<home>
+		<player_id>434378</player_id>
+		<useName>Justin</useName>
+		<lastName>Verlander</lastName>
+		<rosterDisplayName>Verlander</rosterDisplayName> 
+        <number>35</number>
+		<throwinghand>RHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo><media content_id="20111135"><title>Verlander&#39;s message for fans</title></media></relatedvideo>
+
+	</home>
+
+        
+	<away>
+		<player_id>571800</player_id>
+		<useName>Drew</useName>
+		<lastName>Hutchison</lastName>
+		<rosterDisplayName>Hutchison</rosterDisplayName> 
+        <number>69</number>
+		<throwinghand>RHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo></relatedvideo>
+
+	</away>
+	
+	</probables>
+    <previews>
+        <mlb>
+</mlb>
+        <home>
+</home>
+        <away>
+</away>
+    </previews>
+    <recaps>
+        <home><headline><![CDATA[Berry's triple big for Tigers in Verlander's debut]]></headline><blurb><![CDATA[Justin Verlander couldn't no-hit the Blue Jays again in his first start of the spring, but he still held them down long enough for the Tigers to rally. Quintin Berry's two-run triple in the seventh inning continued Detroit's perfect start with a 4-2 win Monday afternoon at Joker Marchant Stadium.]]></blurb><url cid="2012030527017496"><![CDATA[/news/article.jsp?ymd=20120305&content_id=27017496&vkey=news_det&c_id=det]]></url>
+</home>    
+        <away><headline><![CDATA[Encarnacion leads Blue Jays' offense in loss]]></headline><blurb><![CDATA[Edwin Encarnacion struck for a ground-rule double in the sixth off Phil Coke, but the Blue Jays fell to the Tigers, 4-2, on Monday.]]></blurb><url cid="2012030527017486"><![CDATA[/news/article.jsp?ymd=20120305&content_id=27017486&vkey=news_tor&c_id=tor]]></url>
+</away>    
+    </recaps>
+    <wrap>
+        <mlb>
+</mlb>    
+    </wrap>
+    <photos>
+        
+<ipad>
+<url>/images/2012/02/29/uEV65vhq.png</url>
+<headline><![CDATA[MLB.com]]></headline>
+<caption><![CDATA[Spring Training 2012]]></caption>
+<credit><![CDATA[]]></credit>
+</ipad>
+    
+    </photos>
+    
+
+
+<mlbtv_alt_feed_index>
+</mlbtv_alt_feed_index>
+
+
+</game>

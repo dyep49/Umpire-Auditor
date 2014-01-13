@@ -1,0 +1,58 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_03_pitmlb_tormlb_1" status_ind="F"  status="Final" inning="9" top_inning="T" b="0" s="0" o="3" inning_state="" event="at_bat_start">
+	<score ar="1" ah="3" ae="0" hr="7" hh="9" he="2" />
+	<players>
+		<batter pid="543257" stand="L" b_height="6-1" ab="2" h="0" avg=".000" boxname="Grossman">
+			<ab inning="9" event="Groundout"/>
+			<ab inning="7" event="Groundout"/>
+		</batter>
+		<pitcher pid="468528" p_throws="R" pitches="6" strikes="6" balls="0" era="0.00" boxname="Carreno"/>
+		<deck pid="518700" boxname="Fryer"/>
+		<hole pid="460267" boxname="Boggs"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="RISP"/>
+	<atbat num="72" des="Robbie Grossman grounds out, third baseman Jonathan Diaz to first baseman Mike McDade.  " event="Left On Base" player="543257">
+		<p type="X" id="477" x="99.57" y="122.61" des="In play, out(s)"  cc=""/>	</atbat>
+	<field>
+		<offense type="away" id="pit">
+			<man bnum="2" pid="516782" boxname="Marte, S" note="Double" sb="0" cs="0"/>
+		</offense>
+		<defense type="home" id="tor">
+			<man pid="468528" s_po="0" s_ass="0" s_err="0" s_fldg=".000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="543228" s_po="4" s_ass="0" s_err="0" s_fldg="1.000" c_sb="1" c_cs="0" pos="c"/>
+			<man pid="519005" s_po="4" s_ass="0" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="453454" s_po="0" s_ass="2" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="123744" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="ss"/>
+			<man pid="502409" s_po="0" s_ass="3" s_err="0" s_fldg="1.000" pos="3b"/>
+			<man pid="501983" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="lf"/>
+			<man pid="543238" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="501213" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="rf"/>
+		</defense>
+		<ball type="G" x="99.40" y="169.68" batter="543257" pitcher="468528"/>
+	</field>
+	<lineup>
+		<team type="home" pitcher="468528" index="2">
+			<man pid="123744"/>
+			<man pid="453454"/>
+			<man pid="501213"/>
+			<man pid="519005"/>
+			<man pid="450204"/>
+			<man pid="543238"/>
+			<man pid="502409"/>
+			<man pid="501983"/>
+			<man pid="543228"/>
+		</team>
+		<team type="away" pitcher="579799" index="8">
+			<man pid="460267"/>
+			<man pid="543281"/>
+			<man pid="435038"/>
+			<man pid="452783"/>
+			<man pid="488871"/>
+			<man pid="516782"/>
+			<man pid="518755"/>
+			<man pid="543257"/>
+			<man pid="518700"/>
+		</team>
+	</lineup>
+	<weather temp="83" condition="Partly Cloudy" wind="15mph In From RF"/>
+	<control wait="10" box="0"/>
+</game>

@@ -1,0 +1,58 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_05_seamlb_sdnmlb_1" status_ind="F"  status="Final" inning="9" top_inning="F" b="0" s="0" o="3" inning_state="" event="strikeout">
+	<score ar="13" ah="15" ae="4" hr="7" hh="12" he="1" />
+	<players>
+		<batter pid="435181" stand="L" b_height="6-3" ab="3" h="1" avg=".250" boxname="Hermida">
+			<ab inning="9" event="Strikeout"/>
+			<ab inning="8" event="Strikeout"/>
+			<ab inning="6" event="Single"/>
+		</batter>
+		<pitcher pid="500721" p_throws="R" pitches="9" strikes="8" balls="1" era="9.00" boxname="Medina, Y"/>
+		<deck pid="517054" boxname="Rincon"/>
+		<hole pid="571734" boxname="Hagerty"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="Empty"/>
+	<atbat num="91" des="Jeremy Hermida called out on strikes.  " event="Strikeout" player="435181">
+		<p type="S" id="820" x="125.32" y="159.74" des="Called Strike" sv_id="120305_162934" start_speed="93.4" end_speed="86.8" sz_top="3.43" sz_bot="1.57" pfx_x="-12.13" pfx_z="3.19" px="-0.775" pz="1.789" x0="-1.64" y0="50.0" z0="5.82" vx0="6.609" vy0="-136.68" vz0="-6.102" ax="-23.114" ay="28.066" az="-26.03" break_y="23.8" break_angle="38.7" break_length="7.4" pitch_type="FF" type_confidence=".970" zone="13" nasty="75" spin_dir="255.114" spin_rate="2538.619"  cc=""/>		<p type="B" id="821" x="127.90" y="177.87" des="Ball" sv_id="120305_162949" start_speed="85.6" end_speed="79.1" sz_top="3.43" sz_bot="1.57" pfx_x="-11.09" pfx_z="3.48" px="-0.97" pz="0.975" x0="-1.82" y0="50.0" z0="5.465" vx0="5.66" vy0="-125.293" vz0="-5.72" ax="-17.588" ay="25.8" az="-26.583" break_y="23.8" break_angle="30.8" break_length="8.2" pitch_type="CH" type_confidence=".857" zone="13" nasty="46" spin_dir="252.365" spin_rate="2136.957"  cc=""/>		<p type="S" id="822" x="115.88" y="158.88" des="Swinging Strike" sv_id="120305_163004" start_speed="85.0" end_speed="78.7" sz_top="3.43" sz_bot="1.57" pfx_x="-10.92" pfx_z="3.15" px="-0.335" pz="1.998" x0="-1.746" y0="50.0" z0="5.648" vx0="6.957" vy0="-124.38" vz0="-3.45" ax="-17.151" ay="24.364" az="-27.153" break_y="23.8" break_angle="29.7" break_length="8.3" pitch_type="CH" type_confidence=".849" zone="7" nasty="37" spin_dir="253.682" spin_rate="2084.476"  cc=""/>		<p type="S" id="823" x="109.01" y="157.15" des="Called Strike" sv_id="120305_163020" start_speed="84.4" end_speed="78.2" sz_top="3.43" sz_bot="1.57" pfx_x="2.44" pfx_z="-2.7" px="-0.472" pz="1.99" x0="-1.704" y0="50.0" z0="5.721" vx0="2.233" vy0="-123.718" vz0="-1.676" ax="3.781" ay="25.102" az="-36.271" break_y="23.8" break_angle="-6.5" break_length="9.7" pitch_type="SL" type_confidence=".687" zone="7" nasty="40" spin_dir="42.702" spin_rate="653.762"  cc=""/>	</atbat>
+	<field>
+		<offense type="home" id="sdn">
+		</offense>
+		<defense type="away" id="sea">
+			<man pid="500721" s_po="0" s_ass="0" s_err="0" s_fldg=".000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="446192" s_po="12" s_ass="0" s_err="0" s_fldg="1.000" c_sb="0" c_cs="1" pos="c"/>
+			<man pid="499926" s_po="15" s_ass="0" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="493128" s_po="3" s_ass="8" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="425904" s_po="5" s_ass="8" s_err="0" s_fldg="1.000" pos="ss"/>
+			<man pid="541648" s_po="1" s_ass="3" s_err="1" s_fldg=".800" pos="3b"/>
+			<man pid="596844" s_po="0" s_ass="0" s_err="1" s_fldg=".000" pos="lf"/>
+			<man pid="477054" s_po="7" s_ass="1" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="596846" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="rf"/>
+		</defense>
+		<ball />
+	</field>
+	<lineup>
+		<team type="home" pitcher="543805" index="7">
+			<man pid="518558"/>
+			<man pid="465784"/>
+			<man pid="500274"/>
+			<man pid="527039"/>
+			<man pid="543094"/>
+			<man pid="542642"/>
+			<man pid="435181"/>
+			<man pid="517054"/>
+			<man pid="571734"/>
+		</team>
+		<team type="away" pitcher="500721" index="4">
+			<man pid="493128"/>
+			<man pid="425904"/>
+			<man pid="596846"/>
+			<man pid="499926"/>
+			<man pid="596844"/>
+			<man pid="541648"/>
+			<man pid="446192"/>
+			<man pid="451713"/>
+			<man pid="477054"/>
+		</team>
+	</lineup>
+	<weather temp="76" condition="Cloudy" wind="5mph R To L"/>
+	<control wait="10" box="0"/>
+</game>

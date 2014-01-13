@@ -1,0 +1,5 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="13:05" game_pk="332119" game_time_et="01:05 PM" gameday_sw="Y">
+	<team type="home" code="pit" file_code="pit" abbrev="PIT" id="134" name="Pittsburgh" name_full="Pittsburgh Pirates" name_brief="Pirates" w="0" l="2" division_id="205" league_id="104" league="NL"/>
+	<team type="away" code="tor" file_code="tor" abbrev="TOR" id="141" name="Toronto" name_full="Toronto Blue Jays" name_brief="Blue Jays" w="2" l="0" division_id="201" league_id="103" league="AL"/>
+	<stadium id="2526" name="McKechnie Field" venue_w_chan_loc="USFL0047" location="Bradenton, FL"/>
+</game>

@@ -1,0 +1,57 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_05_bosmlb_minmlb_1" status_ind="F"  status="Final" inning="9" top_inning="F" b="0" s="0" o="3" inning_state="" event="at_bat_start">
+	<score ar="10" ah="11" ae="0" hr="2" hh="7" he="2" />
+	<players>
+		<batter pid="284568" stand="L" b_height="6-1" ab="2" h="0" avg=".167" boxname="Burroughs">
+			<ab inning="9" event="Flyout"/>
+			<ab inning="6" event="Flyout"/>
+		</batter>
+		<pitcher pid="434482" p_throws="L" pitches="3" strikes="3" balls="0" era="0.00" boxname="Carlson"/>
+		<deck pid="459434" boxname="Tosoni"/>
+		<hole pid="501920" boxname="Dinkelman"/>
+	</players>
+	<splits batter="vs_LHP" pitcher="vs_LHB" runner="Empty"/>
+	<atbat num="78" des="Sean Burroughs flies out to left fielder Nate Spears.  " event="null" player="284568">
+		<p type="X" id="537" x="93.56" y="123.47" des="In play, out(s)"  cc=""/>	</atbat>
+	<field>
+		<offense type="home" id="min">
+		</offense>
+		<defense type="away" id="bos">
+			<man pid="434482" s_po="0" s_ass="0" s_err="0" s_fldg=".000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="576788" s_po="3" s_ass="0" s_err="0" s_fldg="1.000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="502249" s_po="6" s_ass="1" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="520988" s_po="3" s_ass="3" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="465674" s_po="1" s_ass="1" s_err="0" s_fldg="1.000" pos="ss"/>
+			<man pid="519025" s_po="0" s_ass="4" s_err="0" s_fldg="1.000" pos="3b"/>
+			<man pid="460621" s_po="3" s_ass="2" s_err="0" s_fldg="1.000" pos="lf"/>
+			<man pid="521428" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="cf"/>
+			<man pid="572910" s_po="3" s_ass="0" s_err="0" s_fldg="1.000" pos="rf"/>
+		</defense>
+		<ball type="F" x="81.33" y="105.42" batter="284568" pitcher="434482"/>
+	</field>
+	<lineup>
+		<team type="home" pitcher="502356" index="9">
+			<man pid="459434"/>
+			<man pid="501920"/>
+			<man pid="519221"/>
+			<man pid="456665"/>
+			<man pid="542455"/>
+			<man pid="461858"/>
+			<man pid="457133"/>
+			<man pid="465753"/>
+			<man pid="284568"/>
+		</team>
+		<team type="away" pitcher="434482" index="7">
+			<man pid="465674"/>
+			<man pid="572910"/>
+			<man pid="519025"/>
+			<man pid="502249"/>
+			<man pid="493333"/>
+			<man pid="460621"/>
+			<man pid="576788"/>
+			<man pid="520988"/>
+			<man pid="521428"/>
+		</team>
+	</lineup>
+	<weather temp="70" condition="Clear" wind="7mph In From RF"/>
+	<control wait="10" box="0"/>
+</game>

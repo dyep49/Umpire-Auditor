@@ -1,0 +1,56 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_03_wasmlb_houmlb_1" status_ind="F"  status="Final" inning="9" top_inning="T" b="0" s="0" o="3" inning_state="" event="strikeout">
+	<score ar="1" ah="8" ae="1" hr="3" hh="5" he="0" />
+	<players>
+		<batter pid="449082" stand="L" b_height="5-9" ab="1" h="0" avg=".000" boxname="Paul">
+			<ab inning="9" event="Strikeout"/>
+		</batter>
+		<pitcher pid="446641" p_throws="R" pitches="7" strikes="7" balls="0" era="0.00" boxname="Lopez, W"/>
+		<deck pid="446395" boxname="Brown, C"/>
+		<hole pid="500207" boxname="Solano"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="Empty"/>
+	<atbat num="66" des="Xavier Paul strikes out swinging.  " event="Strikeout" player="449082">
+		<p type="S" id="420" x="89.27" y="119.16" des="Swinging Strike"  cc=""/>		<p type="S" id="421" x="84.12" y="122.61" des="Swinging Strike"  cc=""/>		<p type="S" id="422" x="84.12" y="123.47" des="Swinging Strike"  cc=""/>	</atbat>
+	<field>
+		<offense type="away" id="was">
+		</offense>
+		<defense type="home" id="hou">
+			<man pid="446641" s_po="0" s_ass="0" s_err="0" s_fldg=".000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="449786" s_po="4" s_ass="0" s_err="0" s_fldg="1.000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="572138" s_po="3" s_ass="0" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="444448" s_po="1" s_ass="3" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="452671" s_po="0" s_ass="2" s_err="0" s_fldg="1.000" pos="ss"/>
+			<man pid="407871" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="3b"/>
+			<man pid="448605" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="lf"/>
+			<man pid="488681" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="cf"/>
+			<man pid="430957" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="rf"/>
+		</defense>
+		<ball />
+	</field>
+	<lineup>
+		<team type="home" pitcher="446641" index="6">
+			<man pid="448605"/>
+			<man pid="444448"/>
+			<man pid="430957"/>
+			<man pid="543807"/>
+			<man pid="407871"/>
+			<man pid="488681"/>
+			<man pid="572138"/>
+			<man pid="452671"/>
+			<man pid="449786"/>
+		</team>
+		<team type="away" pitcher="430634" index="7">
+			<man pid="433217"/>
+			<man pid="543459"/>
+			<man pid="448276"/>
+			<man pid="489138"/>
+			<man pid="543685"/>
+			<man pid="491640"/>
+			<man pid="449082"/>
+			<man pid="446395"/>
+			<man pid="500207"/>
+		</team>
+	</lineup>
+	<weather temp="84" condition="Cloudy" wind="10mph Out To LF"/>
+	<control wait="10" box="0"/>
+</game>

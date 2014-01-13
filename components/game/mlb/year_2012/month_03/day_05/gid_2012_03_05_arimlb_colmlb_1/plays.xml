@@ -1,0 +1,56 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_05_arimlb_colmlb_1" status_ind="F"  status="Final" inning="9" top_inning="F" b="0" s="0" o="0" inning_state="" event="relief_no_out">
+	<score ar="5" ah="7" ae="4" hr="6" hh="9" he="2" />
+	<players>
+		<batter pid="572019" stand="L" b_height="6-4" ab="2" h="1" avg=".333" boxname="Paulsen">
+			<ab inning="9" event="Home Run"/>
+			<ab inning="7" event="Strikeout"/>
+		</batter>
+		<pitcher pid="452293" p_throws="R" pitches="1" strikes="1" balls="0" era="9.00" boxname="Albaladejo"/>
+		<deck pid="474494" boxname="Field"/>
+		<hole pid="571924" boxname="Matthes"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="Empty"/>
+	<action des="Ben Paulsen homers (1) on a fly ball to right field.  " event="Relief with No Outs" player="452293"/>
+	<field>
+		<offense type="home" id="col">
+		</offense>
+		<defense type="away" id="ari">
+			<man pid="452293" s_po="0" s_ass="0" s_err="0" s_fldg=".000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="501248" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="456406" s_po="4" s_ass="0" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="285068" s_po="1" s_ass="1" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="572008" s_po="3" s_ass="3" s_err="3" s_fldg=".667" pos="ss"/>
+			<man pid="572253" s_po="5" s_ass="0" s_err="1" s_fldg=".833" pos="3b"/>
+			<man pid="502261" s_po="3" s_ass="0" s_err="0" s_fldg="1.000" pos="lf"/>
+			<man pid="572041" s_po="3" s_ass="0" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="594809" s_po="8" s_ass="0" s_err="0" s_fldg="1.000" pos="rf"/>
+		</defense>
+		<ball type="H" x="227.91" y="54.22" batter="572019" pitcher="452293"/>
+	</field>
+	<lineup>
+		<team type="home" pitcher="489346" index="8">
+			<man pid="571924"/>
+			<man pid="502125"/>
+			<man pid="518500"/>
+			<man pid="455126"/>
+			<man pid="501647"/>
+			<man pid="430593"/>
+			<man pid="457420"/>
+			<man pid="572019"/>
+			<man pid="474494"/>
+		</team>
+		<team type="away" pitcher="452293" index="5">
+			<man pid="456406"/>
+			<man pid="285068"/>
+			<man pid="501248"/>
+			<man pid="502671"/>
+			<man pid="572041"/>
+			<man pid="572253"/>
+			<man pid="502261"/>
+			<man pid="572008"/>
+			<man pid="594809"/>
+		</team>
+	</lineup>
+	<weather temp="77" condition="Overcast" wind="4mph In From RF"/>
+	<control wait="10" box="0"/>
+</game>

@@ -1,0 +1,95 @@
+<game status="F" id="2012_03_04_sfnmlb_milmlb_1" start_time="3:05" ampm="pm" time_zone="ET"  type="S" away_score="1" home_score="1" league="CL" series-code="" series-game-number="1" game-number="1">
+    <ticketlink></ticketlink>
+    <venueShort>Maryvale Baseball Park</venueShort>
+	<venueLong>Maryvale Baseball Park</venueLong>
+	<gallery exists="0" />
+    <broadcast>
+        <home>
+        <tv></tv>
+        <radio>WTMJ 620</radio>
+</home>
+        <away>
+        <tv></tv>
+        <radio></radio>
+</away>
+    </broadcast>
+    <probables>
+	    
+	<home>
+		<player_id>150116</player_id>
+		<useName>Randy</useName>
+		<lastName>Wolf</lastName>
+		<rosterDisplayName>Wolf</rosterDisplayName> 
+        <number>43</number>
+		<throwinghand>LHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo><media content_id="20104049"><title>Wolf, Marcum on 2012 season</title></media></relatedvideo>
+
+	</home>
+
+        
+	<away>
+		<player_id>518516</player_id>
+		<useName>Madison</useName>
+		<lastName>Bumgarner</lastName>
+		<rosterDisplayName>Bumgarner</rosterDisplayName> 
+        <number>40</number>
+		<throwinghand>LHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo><media content_id="20097303"><title>Gcast: Madison Bumgarner</title></media></relatedvideo>
+
+	</away>
+	
+	</probables>
+    <previews>
+        <mlb>
+</mlb>
+        <home>
+</home>
+        <away>
+</away>
+    </previews>
+    <recaps>
+        <home><headline><![CDATA[Braun fans twice as he puts winter behind him]]></headline><blurb><![CDATA[Ryan Braun struck out twice in his 2012 debut, a 1-1 tie with the Giants at Maryvale Baseball Park on Sunday, but the Brewers left fielder considered it a step forward after a trying winter.]]></blurb><url cid="2012030427002842"><![CDATA[/news/article.jsp?ymd=20120304&content_id=27002842&vkey=recap&c_id=mil]]></url>
+</home>    
+        <away><headline><![CDATA[Bumgarner sets tone as pitchers handle Crew]]></headline><blurb><![CDATA[Madison Bumgarner got the starting nod as Giants pitchers turned in dominant performance for a split squad in a 1-1 tie with the Brewers at Maryvale Baseball Park on Sunday.]]></blurb><url cid="2012030427001854"><![CDATA[/news/article.jsp?ymd=20120304&content_id=27001854&vkey=recap&c_id=sf]]></url>
+</away>    
+    </recaps>
+    <wrap>
+        <mlb>
+</mlb>    
+    </wrap>
+    <photos>
+        
+<ipad>
+<url>/images/2012/02/29/uEV65vhq.png</url>
+<headline><![CDATA[MLB.com]]></headline>
+<caption><![CDATA[Spring Training 2012]]></caption>
+<credit><![CDATA[]]></credit>
+</ipad>
+    
+    </photos>
+    
+
+
+<mlbtv_alt_feed_index>
+</mlbtv_alt_feed_index>
+
+
+</game>

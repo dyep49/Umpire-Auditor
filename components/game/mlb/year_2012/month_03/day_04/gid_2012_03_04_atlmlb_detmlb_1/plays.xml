@@ -1,0 +1,59 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_04_atlmlb_detmlb_1" status_ind="F"  status="Final" inning="9" top_inning="T" b="0" s="0" o="3" inning_state="" event="at_bat_start">
+	<score ar="3" ah="9" ae="1" hr="18" hh="14" he="3" />
+	<players>
+		<batter pid="425543" stand="R" b_height="6-0" ab="1" h="0" avg=".000" boxname="Wilson, Jo">
+			<ab inning="9" event="Groundout"/>
+			<ab inning="8" event="Walk"/>
+		</batter>
+		<pitcher pid="518809" p_throws="L" pitches="5" strikes="5" balls="0" era="0.00" boxname="Hoffman"/>
+		<deck pid="470516" boxname="Durango"/>
+		<hole pid="592743" boxname="Simmons"/>
+	</players>
+	<splits batter="vs_LHP" pitcher="vs_LHB" runner="RISP"/>
+	<atbat num="91" des="Josh Wilson grounds out, pitcher Matt Hoffman to first baseman Don Kelly.  " event="Left On Base" player="425543">
+		<p type="X" id="619" x="93.56" y="120.02" des="In play, out(s)"  cc=""/>	</atbat>
+	<field>
+		<offense type="away" id="atl">
+			<man bnum="1" pid="519345" boxname="Terdoslavich" note="Single" sb="0" cs="0"/>
+			<man bnum="2" pid="470920" boxname="Yepez, J" note="Field Error" sb="0" cs="0"/>
+		</offense>
+		<defense type="home" id="det">
+			<man pid="518809" s_po="0" s_ass="2" s_err="0" s_fldg="1.000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="592407" s_po="3" s_ass="0" s_err="0" s_fldg="1.000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="430603" s_po="6" s_ass="0" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="276346" s_po="3" s_ass="5" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="469810" s_po="2" s_ass="3" s_err="1" s_fldg=".833" pos="ss"/>
+			<man pid="519445" s_po="2" s_ass="5" s_err="0" s_fldg="1.000" pos="3b"/>
+			<man pid="518784" s_po="2" s_ass="0" s_err="0" s_fldg="1.000" pos="lf"/>
+			<man pid="460004" s_po="3" s_ass="0" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="541645" s_po="2" s_ass="0" s_err="1" s_fldg=".667" pos="rf"/>
+		</defense>
+		<ball type="G" x="124.50" y="182.73" batter="425543" pitcher="518809"/>
+	</field>
+	<lineup>
+		<team type="home" pitcher="518809" index="3">
+			<man pid="460004"/>
+			<man pid="541645"/>
+			<man pid="519445"/>
+			<man pid="430603"/>
+			<man pid="518784"/>
+			<man pid="592407"/>
+			<man pid="469810"/>
+			<man pid="592200"/>
+			<man pid="276346"/>
+		</team>
+		<team type="away" pitcher="543219" index="8">
+			<man pid="592743"/>
+			<man pid="445199"/>
+			<man pid="592239"/>
+			<man pid="542194"/>
+			<man pid="594828"/>
+			<man pid="470920"/>
+			<man pid="519345"/>
+			<man pid="425543"/>
+			<man pid="470516"/>
+		</team>
+	</lineup>
+	<weather temp="60" condition="Sunny" wind="16mph L To R"/>
+	<control wait="10" box="0"/>
+</game>

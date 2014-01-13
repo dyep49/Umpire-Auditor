@@ -1,0 +1,5 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="E" local_game_time="14:35" game_pk="332102" game_time_et="02:35 PM" gameday_sw="N">
+	<team type="home" code="bos" file_code="bos" abbrev="BOS" id="111" name="Boston" name_full="Boston Red Sox" name_brief="Red Sox" w="1" l="0" division_id="201" league_id="103" league="AL"/>
+	<team type="away" code="neu" file_code="neu" abbrev="NEU" id="343" name="Northeastern U." name_full="Northeastern University Huskies" name_brief="Huskies" w="0" l="1" division_id="" league_id="107" league="BE"/>
+	<stadium id="4309" name="JetBlue Park" venue_w_chan_loc="USFL0152" location="Ft. Myers, FL"/>
+</game>

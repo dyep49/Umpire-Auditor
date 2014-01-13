@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt-->
+<bench>
+   <away tid="hou">
+      <batters>
+         <batter id="514888" last="Altuve" b="R" pos="2B" avg=".333" g="1" ab="3" r="0" h="1"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="430652" last="Bourgeois" b="R" pos="CF" avg=".500" g="1" ab="2" r="0" h="1"
+                 hr="0"
+                 rbi="0"
+                 sb="1"/>
+         <batter id="459941" last="Buck, T" b="L" pos="LF" avg=".000" g="1" ab="3" r="0" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="488771" last="Castro, Ja" b="L" pos="C" avg=".000" g="1" ab="1" r="0" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="449786" last="Corporan" b="S" pos="C" avg=".000" g="1" ab="2" r="0" h="0"
+                 hr="0"
+                 rbi="1"
+                 sb="0"/>
+         <batter id="400091" last="Cust" b="L" pos="RF" avg=".000" g="1" ab="2" r="1" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="150324" last="Lee, Ca" b="R" pos="LF" avg=".000" g="0" ab="0" r="0" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="476704" last="Lowrie" b="S" pos="SS" avg=".500" g="1" ab="2" r="0" h="1"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="517370" last="Paredes" b="S" pos="3B" avg=".000" g="0" ab="0" r="0" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="279827" last="Quintero" b="R" pos="C" avg=".000" g="0" ab="0" r="0" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="447816" last="Sanchez, Ag" b="R" pos="SS" avg=".000" g="0" ab="0" r="0"
+                 h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="543776" last="Shuck" b="L" pos="CF" avg=".500" g="1" ab="2" r="0" h="1"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="548300" last="Wallace" b="R" pos="C" avg=".000" g="0" ab="0" r="0" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+      </batters>
+      <pitchers>
+         <pitcher id="472551" last="Abad, F" t="L" w="0" l="0" era="0.00" g="1" sv="0" ip="1.0"
+                  h="0"
+                  bb="0"
+                  so="1"/>
+         <pitcher id="444874" last="Abreu" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="458584" last="Cedeno" t="L" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="462480" last="Cruz" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="501529" last="De Leon, J" t="R" w="0" l="0" era="0.00" g="0" sv="0"
+                  ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="491688" last="Del Rosario" t="R" w="0" l="0" era="0.00" g="0" sv="0"
+                  ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="435043" last="Duke" t="L" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="465065" last="Escalona" t="L" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="115817" last="Hernandez, L" t="R" w="0" l="0" era="0.00" g="1" sv="0"
+                  ip="2.0"
+                  h="3"
+                  bb="0"
+                  so="2"/>
+         <pitcher id="455376" last="Leon, Ar" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="446641" last="Lopez, W" t="R" w="0" l="0" era="0.00" g="1" sv="1" ip="1.0"
+                  h="0"
+                  bb="0"
+                  so="2"/>
+         <pitcher id="543475" last="Lyles" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="407193" last="Lyon" t="R" w="0" l="0" era="0.00" g="1" sv="0" ip="1.0"
+                  h="1"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="408206" last="Myers" t="R" w="0" l="0" era="9.00" g="1" sv="0" ip="1.0"
+                  h="2"
+                  bb="0"
+                  so="1"/>
+         <pitcher id="502032" last="Norris" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="459983" last="Pendleton" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="444553" last="Rodriguez, An" t="R" w="0" l="0" era="0.00" g="0" sv="0"
+                  ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="434643" last="Rodriguez, W" t="L" w="0" l="0" era="0.00" g="0" sv="0"
+                  ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="451990" last="Valdez, J" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="492821" last="Villar, H" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="475095" last="Weiland" t="R" w="1" l="0" era="0.00" g="1" sv="0" ip="2.0"
+                  h="1"
+                  bb="0"
+                  so="1"/>
+         <pitcher id="449079" last="Wright, W" t="L" w="0" l="0" era="0.00" g="1" sv="0" ip="1.0"
+                  h="1"
+                  bb="0"
+                  so="0"/>
+      </pitchers>
+   </away>
+   <home tid="was">
+      <batters>
+         <batter id="150449" last="Ankiel" b="L" pos="CF" avg=".500" g="1" ab="2" r="0" h="1"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="465668" last="Bernadina" b="L" pos="RF" avg=".667" g="1" ab="3" r="1" h="2"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="433217" last="Blanco, A" b="S" pos="SS" avg=".000" g="1" ab="1" r="0" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="111904" last="Cameron" b="R" pos="CF" avg=".000" g="0" ab="0" r="0" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="435520" last="Flores, J" b="R" pos="C" avg="1.000" g="1" ab="2" r="0" h="2"
+                 hr="0"
+                 rbi="1"
+                 sb="0"/>
+         <batter id="425560" last="LaRoche, Ad" b="L" pos="1B" avg=".000" g="0" ab="0" r="0"
+                 h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="506702" last="Leon" b="S" pos="C" avg=".000" g="0" ab="0" r="0" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="543459" last="Lombardozzi" b="S" pos="2B" avg=".000" g="1" ab="1" r="0"
+                 h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="502029" last="Marrero" b="R" pos="1B" avg=".000" g="0" ab="0" r="0" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="449082" last="Paul" b="L" pos="LF" avg=".000" g="1" ab="1" r="0" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="491640" last="Rivero, C" b="R" pos="3B" avg=".000" g="1" ab="2" r="0" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+         <batter id="500207" last="Solano" b="R" pos="C" avg=".000" g="1" ab="1" r="0" h="0"
+                 hr="0"
+                 rbi="0"
+                 sb="0"/>
+      </batters>
+      <pitchers>
+         <pitcher id="502212" last="Bibens-Dirkx" t="R" w="0" l="0" era="0.00" g="0" sv="0"
+                  ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="430634" last="Burnett, S" t="L" w="0" l="0" era="0.00" g="1" sv="0"
+                  ip="1.0"
+                  h="0"
+                  bb="1"
+                  so="2"/>
+         <pitcher id="446321" last="Detwiler" t="L" w="0" l="1" era="9.00" g="1" sv="0" ip="2.0"
+                  h="2"
+                  bb="1"
+                  so="3"/>
+         <pitcher id="239795" last="Durbin" t="R" w="0" l="0" era="0.00" g="1" sv="0" ip="2.0"
+                  h="1"
+                  bb="0"
+                  so="2"/>
+         <pitcher id="461829" last="Gonzalez, G" t="L" w="0" l="0" era="0.00" g="0" sv="0"
+                  ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="429719" last="Jackson, E" t="R" w="0" l="0" era="0.00" g="1" sv="0"
+                  ip="2.0"
+                  h="1"
+                  bb="2"
+                  so="0"/>
+         <pitcher id="471183" last="Joaquin" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="501993" last="Kimball" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="458709" last="Lannan" t="L" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="514669" last="Martin" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="493337" last="Maya" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="543634" last="Perry" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="545357" last="Purke" t="L" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="469159" last="Rodriguez, H" t="R" w="0" l="0" era="0.00" g="0" sv="0"
+                  ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="463037" last="Severino" t="L" w="0" l="0" era="9.00" g="1" sv="0" ip="1.0"
+                  h="1"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="489334" last="Stammen" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="425426" last="Wang, Ch" t="R" w="0" l="0" era="0.00" g="0" sv="0" ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+         <pitcher id="519455" last="Zimmermann" t="R" w="0" l="0" era="0.00" g="0" sv="0"
+                  ip="0.0"
+                  h="0"
+                  bb="0"
+                  so="0"/>
+      </pitchers>
+   </home>
+</bench>

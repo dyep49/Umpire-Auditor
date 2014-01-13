@@ -1,0 +1,95 @@
+<game status="F" id="2012_03_04_sfnmlb_arimlb_1" start_time="3:10" ampm="pm" time_zone="ET"  type="S" away_score="11" home_score="1" league="CL" series-code="" series-game-number="2" game-number="1">
+    <ticketlink></ticketlink>
+    <venueShort>Salt River Fields at Talking Stick</venueShort>
+	<venueLong>Salt River Fields at Talking Stick</venueLong>
+	<gallery exists="0" />
+    <broadcast>
+        <home>
+        <tv></tv>
+        <radio>KTAR 620</radio>
+</home>
+        <away>
+        <tv></tv>
+        <radio>KNBR 680</radio>
+</away>
+    </broadcast>
+    <probables>
+	    
+	<home>
+		<player_id>453178</player_id>
+		<useName>Ian</useName>
+		<lastName>Kennedy</lastName>
+		<rosterDisplayName>Kennedy, I</rosterDisplayName> 
+        <number>31</number>
+		<throwinghand>RHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo><media content_id="20088285"><title>D-backs players work at SUBWAY</title></media></relatedvideo>
+
+	</home>
+
+        
+	<away>
+		<player_id>434638</player_id>
+		<useName>Brian</useName>
+		<lastName>Burres</lastName>
+		<rosterDisplayName>Burres</rosterDisplayName> 
+        <number>62</number>
+		<throwinghand>LHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo><media content_id="18719717"><title>Burres&#39; quality start</title></media></relatedvideo>
+
+	</away>
+	
+	</probables>
+    <previews>
+        <mlb>
+</mlb>
+        <home>
+</home>
+        <away>
+</away>
+    </previews>
+    <recaps>
+        <home><headline><![CDATA[Bees rob Kennedy of proper spring debut]]></headline><blurb><![CDATA[A bizarre delay cost Ian Kennedy a chance to finish the second inning as he departed after throwing 29 pitches in Sunday's Cactus League debut, an 11-1 loss to the Giants.]]></blurb><url cid="2012030427006492"><![CDATA[/news/article.jsp?ymd=20120304&content_id=27006492&vkey=recap&c_id=ari]]></url>
+</home>    
+        <away><headline><![CDATA[Pill leads busy day by Giants offense]]></headline><blurb><![CDATA[Brett Pill, Mike Fontenot and Hector Sanchez combined for nine hits and six RBIs as the Giants roughed up the D-backs, 11-1, Sunday afternoon in front of a record crowd 12,546 at Salt River Fields.]]></blurb><url cid="2012030427001956"><![CDATA[/news/article.jsp?ymd=20120304&content_id=27001956&vkey=recap&c_id=sf]]></url>
+</away>    
+    </recaps>
+    <wrap>
+        <mlb>
+</mlb>    
+    </wrap>
+    <photos>
+        
+<ipad>
+<url>/images/2012/02/29/uEV65vhq.png</url>
+<headline><![CDATA[MLB.com]]></headline>
+<caption><![CDATA[Spring Training 2012]]></caption>
+<credit><![CDATA[]]></credit>
+</ipad>
+    
+    </photos>
+    
+
+
+<mlbtv_alt_feed_index>
+</mlbtv_alt_feed_index>
+
+
+</game>

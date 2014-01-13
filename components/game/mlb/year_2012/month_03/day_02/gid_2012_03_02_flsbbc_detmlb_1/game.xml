@@ -1,0 +1,5 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="E" local_game_time="13:05" game_pk="332094" game_time_et="01:05 PM" gameday_sw="N">
+	<team type="home" code="det" file_code="det" abbrev="DET" id="116" name="Detroit" name_full="Detroit Tigers" name_brief="Tigers" w="1" l="0" division_id="202" league_id="103" league="AL"/>
+	<team type="away" code="fls" file_code="fso" abbrev="FSC" id="228" name="Fla. Southern Col." name_full="Florida Southern College Mocs" name_brief="Mocs" w="0" l="1" division_id="" league_id="108" league="ACC"/>
+	<stadium id="2511" name="Joker Marchant Stadium" venue_w_chan_loc="USFL0267" location="Lakeland, FL"/>
+</game>

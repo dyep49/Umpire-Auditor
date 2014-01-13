@@ -1,0 +1,55 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_03_arimlb_colmlb_1" status_ind="DO"  status="Postponed" reason="Other" inning="1" top_inning="T" b="0" s="0" o="0" inning_state="" event="">
+	<score ar="0" ah="0" ae="0" hr="0" hh="0" he="0" />
+	<players>
+		<batter pid="452293" stand="R" b_height="6-5" ab="0" h="0" avg=".000" boxname="Albaladejo">
+		</batter>
+		<pitcher pid="455091" p_throws="R" pitches="0" strikes="0" balls="0" era="0.00" boxname="Ekstrom"/>
+		<deck pid="545333" boxname="Bauer"/>
+		<hole pid="571602" boxname="Davidson"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="Empty"/>
+	<atbat num="0">
+	</atbat>
+	<field>
+		<offense type="away" id="ari">
+		</offense>
+		<defense type="home" id="col">
+			<man pid="455091" s_po="0" s_ass="0" s_err="0" s_fldg=".000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="407822" s_po="0" s_ass="0" s_err="0" s_fldg=".000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="279571" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="1b"/>
+			<man pid="571448" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="2b"/>
+			<man pid="571688" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="ss"/>
+			<man pid="542369" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="3b"/>
+			<man pid="450604" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="lf"/>
+			<man pid="518934" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="cf"/>
+			<man pid="474494" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="rf"/>
+		</defense>
+		<ball />
+	</field>
+	<lineup>
+		<team type="home" pitcher="455091" index="1">
+			<man pid="279571"/>
+			<man pid="571448"/>
+			<man pid="450604"/>
+			<man pid="542369"/>
+			<man pid="455091"/>
+			<man pid="571688"/>
+			<man pid="474494"/>
+			<man pid="518934"/>
+			<man pid="407822"/>
+		</team>
+		<team type="away" pitcher="502261" index="1">
+			<man pid="452293"/>
+			<man pid="545333"/>
+			<man pid="571602"/>
+			<man pid="502239"/>
+			<man pid="502261"/>
+			<man pid="456696"/>
+			<man pid="499856"/>
+			<man pid="453178"/>
+			<man pid="407835"/>
+		</team>
+	</lineup>
+	<weather temp="50" condition="Drizzle" wind="1mph Varies"/>
+	<control wait="10" box="0"/>
+</game>

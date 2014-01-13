@@ -1,0 +1,59 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_04_phimlb_nyamlb_1" status_ind="F"  status="Final" inning="9" top_inning="T" b="0" s="0" o="3" inning_state="" event="strikeout">
+	<score ar="4" ah="12" ae="4" hr="7" hh="9" he="0" />
+	<players>
+		<batter pid="434681" stand="L" b_height="6-1" ab="2" h="0" avg=".000" boxname="Orr">
+			<ab inning="9" event="Strikeout"/>
+			<ab inning="7" event="Strikeout"/>
+		</batter>
+		<pitcher pid="595032" p_throws="R" pitches="7" strikes="7" balls="0" era="0.00" boxname="Whitley"/>
+		<deck pid="428642" boxname="Montanez"/>
+		<hole pid="502126" boxname="Brown"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="RISP"/>
+	<atbat num="81" des="Pete Orr strikes out swinging.  " event="Left On Base" player="434681">
+		<p type="S" id="518" x="90.99" y="133.84" des="Swinging Strike"  cc=""/>		<p type="S" id="519" x="91.85" y="130.38" des="Swinging Strike"  cc=""/>		<p type="S" id="520" x="92.70" y="128.65" des="Swinging Strike"  cc=""/>	</atbat>
+	<field>
+		<offense type="away" id="phi">
+			<man bnum="2" pid="334393" boxname="Pierre" note="Single" sb="1" cs="0"/>
+			<man bnum="3" pid="452722" boxname="Lerud" note="Forceout" sb="0" cs="0"/>
+		</offense>
+		<defense type="home" id="nya">
+			<man pid="595032" s_po="0" s_ass="0" s_err="0" s_fldg=".000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="571974" s_po="4" s_ass="0" s_err="0" s_fldg="1.000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="468474" s_po="4" s_ass="1" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="458691" s_po="1" s_ass="2" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="448674" s_po="0" s_ass="1" s_err="0" s_fldg="1.000" pos="ss"/>
+			<man pid="543377" s_po="1" s_ass="2" s_err="0" s_fldg="1.000" pos="3b"/>
+			<man pid="453298" s_po="0" s_ass="1" s_err="0" s_fldg="1.000" pos="lf"/>
+			<man pid="444859" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="cf"/>
+			<man pid="501660" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="rf"/>
+		</defense>
+		<ball />
+	</field>
+	<lineup>
+		<team type="home" pitcher="595032" index="7">
+			<man pid="448674"/>
+			<man pid="458691"/>
+			<man pid="543377"/>
+			<man pid="468474"/>
+			<man pid="453298"/>
+			<man pid="571974"/>
+			<man pid="501660"/>
+			<man pid="444859"/>
+			<man pid="434624"/>
+		</team>
+		<team type="away" pitcher="456045" index="3">
+			<man pid="334393"/>
+			<man pid="425556"/>
+			<man pid="434681"/>
+			<man pid="428642"/>
+			<man pid="502126"/>
+			<man pid="425659"/>
+			<man pid="435623"/>
+			<man pid="520471"/>
+			<man pid="452722"/>
+		</team>
+	</lineup>
+	<weather temp="65" condition="Sunny" wind="20mph Out To RF"/>
+	<control wait="10" box="0"/>
+</game>

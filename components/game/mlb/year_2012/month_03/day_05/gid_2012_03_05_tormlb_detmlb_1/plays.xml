@@ -1,0 +1,58 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_05_tormlb_detmlb_1" status_ind="F"  status="Final" inning="9" top_inning="T" b="0" s="0" o="3" inning_state="" event="at_bat_start">
+	<score ar="2" ah="10" ae="0" hr="4" hh="7" he="1" />
+	<players>
+		<batter pid="572365" stand="L" b_height="5-10" ab="2" h="1" avg=".333" boxname="Goins">
+			<ab inning="9" event="Lineout"/>
+			<ab inning="7" event="Single"/>
+		</batter>
+		<pitcher pid="444446" p_throws="R" pitches="9" strikes="8" balls="1" era="0.00" boxname="Balester"/>
+		<deck pid="218595" boxname="Woodward"/>
+		<hole pid="451515" boxname="Nanita"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="RISP"/>
+	<atbat num="71" des="Ryan Goins lines out to center fielder Quintin Berry.  " event="Left On Base" player="572365">
+		<p type="B" id="478" x="121.89" y="176.14" des="Ball"  cc=""/>		<p type="X" id="482" x="95.28" y="139.88" des="In play, out(s)"  cc=""/>	</atbat>
+	<field>
+		<offense type="away" id="tor">
+			<man bnum="2" pid="472528" boxname="Valbuena" note="Single" sb="0" cs="0"/>
+		</offense>
+		<defense type="home" id="det">
+			<man pid="444446" s_po="0" s_ass="0" s_err="0" s_fldg=".000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="542963" s_po="3" s_ass="0" s_err="0" s_fldg="1.000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="456428" s_po="8" s_ass="0" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="452221" s_po="0" s_ass="1" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="519445" s_po="4" s_ass="5" s_err="0" s_fldg="1.000" pos="ss"/>
+			<man pid="592206" s_po="0" s_ass="1" s_err="1" s_fldg=".500" pos="3b"/>
+			<man pid="502968" s_po="2" s_ass="0" s_err="0" s_fldg="1.000" pos="lf"/>
+			<man pid="450641" s_po="2" s_ass="0" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="541645" s_po="2" s_ass="0" s_err="1" s_fldg=".667" pos="rf"/>
+		</defense>
+		<ball type="L" x="127.51" y="89.36" batter="572365" pitcher="444446"/>
+	</field>
+	<lineup>
+		<team type="home" pitcher="444446" index="9">
+			<man pid="450641"/>
+			<man pid="541645"/>
+			<man pid="592206"/>
+			<man pid="456428"/>
+			<man pid="502968"/>
+			<man pid="542963"/>
+			<man pid="543108"/>
+			<man pid="519445"/>
+			<man pid="452221"/>
+		</team>
+		<team type="away" pitcher="150153" index="9">
+			<man pid="218595"/>
+			<man pid="451515"/>
+			<man pid="519005"/>
+			<man pid="543238"/>
+			<man pid="543228"/>
+			<man pid="476036"/>
+			<man pid="501213"/>
+			<man pid="472528"/>
+			<man pid="572365"/>
+		</team>
+	</lineup>
+	<weather temp="71" condition="Sunny" wind="12mph In From CF"/>
+	<control wait="10" box="0"/>
+</game>

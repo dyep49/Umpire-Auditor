@@ -1,0 +1,5 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="13:05" game_pk="332127" game_time_et="01:05 PM" gameday_sw="Y">
+	<team type="home" code="sln" file_code="stl" abbrev="STL" id="138" name="St. Louis" name_full="St. Louis Cardinals" name_brief="Cardinals" w="0" l="1" division_id="205" league_id="104" league="NL"/>
+	<team type="away" code="mia" file_code="mia" abbrev="MIA" id="146" name="Miami" name_full="Miami Marlins" name_brief="Marlins" w="1" l="0" division_id="204" league_id="104" league="NL"/>
+	<stadium id="2520" name="Roger Dean Stadium" venue_w_chan_loc="USFL0237" location="Jupiter, FL"/>
+</game>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt-->
+<game>
+   <inning num="1">
+      <top/>
+      <bottom/>
+   </inning>
+   <atBat pid="452293"/>
+   <deck pid="545333"/>
+   <hole pid="571602"/>
+</game>

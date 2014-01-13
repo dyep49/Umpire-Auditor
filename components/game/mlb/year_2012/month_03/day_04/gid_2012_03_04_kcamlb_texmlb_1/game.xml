@@ -1,0 +1,5 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="12:05" game_pk="332111" game_time_et="02:05 PM" gameday_sw="E">
+	<team type="home" code="tex" file_code="tex" abbrev="TEX" id="140" name="Texas" name_full="Texas Rangers" name_brief="Rangers" w="0" l="1" division_id="200" league_id="103" league="AL"/>
+	<team type="away" code="kca" file_code="kc" abbrev="KC" id="118" name="Kansas City" name_full="Kansas City Royals" name_brief="Royals" w="1" l="0" division_id="202" league_id="103" league="AL"/>
+	<stadium id="2603" name="Surprise Stadium" venue_w_chan_loc="USAZ0229" location="Surprise, AZ"/>
+</game>

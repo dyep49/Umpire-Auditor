@@ -1,0 +1,57 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_05_pitmlb_balmlb_1" status_ind="F"  status="Final" inning="9" top_inning="F" b="0" s="0" o="3" inning_state="" event="at_bat_start">
+	<score ar="10" ah="18" ae="2" hr="3" hh="6" he="2" />
+	<players>
+		<batter pid="452105" stand="R" b_height="6-4" ab="2" h="0" avg=".000" boxname="Hester">
+			<ab inning="9" event="Grounded Into DP"/>
+			<ab inning="6" event="Forceout"/>
+		</batter>
+		<pitcher pid="445971" p_throws="R" pitches="3" strikes="3" balls="0" era="0.00" boxname="Wood"/>
+		<deck pid="543321" boxname="Hoes"/>
+		<hole pid="592518" boxname="Machado"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="Empty"/>
+	<atbat num="82" des="John Hester grounds into double play, third baseman Jordy Mercer to second baseman Anderson Hernandez to first baseman Jeff Clement.    Edgardo Baez out at 2nd.  " event="Grounded Into DP" player="444835">
+		<p type="X" id="551" x="91.85" y="113.11" des="In play, out(s)"  cc=""/>	</atbat>
+	<field>
+		<offense type="home" id="bal">
+		</offense>
+		<defense type="away" id="pit">
+			<man pid="445971" s_po="0" s_ass="0" s_err="0" s_fldg=".000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="506997" s_po="2" s_ass="0" s_err="0" s_fldg="1.000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="459943" s_po="10" s_ass="1" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="435038" s_po="3" s_ass="7" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="488818" s_po="1" s_ass="5" s_err="1" s_fldg=".857" pos="ss"/>
+			<man pid="474568" s_po="3" s_ass="3" s_err="0" s_fldg="1.000" pos="3b"/>
+			<man pid="543257" s_po="3" s_ass="0" s_err="1" s_fldg=".750" pos="lf"/>
+			<man pid="518546" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="518921" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="rf"/>
+		</defense>
+		<ball type="G" x="102.41" y="169.68" batter="452105" pitcher="445971"/>
+	</field>
+	<lineup>
+		<team type="home" pitcher="456421" index="9">
+			<man pid="543321"/>
+			<man pid="592518"/>
+			<man pid="607974"/>
+			<man pid="542970"/>
+			<man pid="476270"/>
+			<man pid="592577"/>
+			<man pid="444835"/>
+			<man pid="460252"/>
+			<man pid="452105"/>
+		</team>
+		<team type="away" pitcher="445971" index="2">
+			<man pid="543257"/>
+			<man pid="488818"/>
+			<man pid="435038"/>
+			<man pid="518700"/>
+			<man pid="474568"/>
+			<man pid="518546"/>
+			<man pid="459943"/>
+			<man pid="518921"/>
+			<man pid="506997"/>
+		</team>
+	</lineup>
+	<weather temp="70" condition="Clear" wind="1mph Varies"/>
+	<control wait="10" box="0"/>
+</game>

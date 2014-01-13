@@ -1,0 +1,5 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="E" local_game_time="12:00" game_pk="336450" game_time_et="12:00 PM" gameday_sw="N">
+	<team type="home" code="was" file_code="was" abbrev="WSH" id="120" name="Washington" name_full="Washington Nationals" name_brief="Nationals" w="1" l="0" division_id="204" league_id="104" league="NL"/>
+	<team type="away" code="guh" file_code="t2330" abbrev="GU" id="2330" name="Georgetown U." name_full="Georgetown University Hoyas" name_brief="Hoyas" w="0" l="1" division_id="" league_id="107" league="BE"/>
+	<stadium id="2513" name="Space Coast Stadium" venue_w_chan_loc="USFL0579" location="Viera, FL"/>
+</game>

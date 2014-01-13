@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><highlights>
+<media id="20117853" date="2012-03-02T19:14:10-0500" type="video" top-play="true">
+<headline>Granderson's first spring hit</headline>
+<duration>00:00:20</duration>
+<keywords>
+<keyword type="team_id" value="147"/>
+</keywords>
+<thumb type="8">http://mediadownloads.mlb.com/mlbam/2012/03/02/images/mlbf_20117853_th_8.jpg</thumb>
+<url playback-scenario="3GP_H264_128K_320X240">http://mediadownloads.mlb.com/mlbam/2012/03/02/mlbtv_usfnya_20117853_3gpp_h264_128K.3gp</url>
+<url playback-scenario="3GP_H264_200K_320X240">rtsp://a870.v10869f.c10869.g.vq.akamaistream.net/7/870/10869/v0001/mlb2003.download.akamai.com/10869/2012/open/mlbam/2012/03/02/mlbtv_usfnya_20117853_3gpp_h264_200K.3gp</url>
+<url playback-scenario="3GP_H264_550K_320X240">http://mediadownloads.mlb.com/mlbam/2012/03/02/mlbtv_usfnya_20117853_3gpp_h264_550K.3gp</url>
+<url playback-scenario="HTTP_CLOUD_MOBILE">http://mediadownloads.mlb.com/mlbam/2012/03/02/20117853_m3u8/master_mobile.m3u8</url>
+<url playback-scenario="HTTP_CLOUD_TABLET">http://mediadownloads.mlb.com/mlbam/2012/03/02/20117853_m3u8/master_tablet.m3u8</url>
+<url playback-scenario="FLASH_1200K_640X360">http://mediadownloads.mlb.com/mlbam/2012/03/02/mlbtv_usfnya_20117853_1200K.mp4</url>
+</media>
+<media id="20117875" date="2012-03-02T19:14:15-0500" type="video" top-play="true">
+<headline>Curtis' RBI single</headline>
+<duration>00:00:17</duration>
+<keywords>
+<keyword type="team_id" value="147"/>
+</keywords>
+<thumb type="8">http://mediadownloads.mlb.com/mlbam/2012/03/02/images/mlbf_20117875_th_8.jpg</thumb>
+<url playback-scenario="3GP_H264_128K_320X240">http://mediadownloads.mlb.com/mlbam/2012/03/02/mlbtv_usfnya_20117875_3gpp_h264_128K.3gp</url>
+<url playback-scenario="3GP_H264_200K_320X240">rtsp://a870.v10869f.c10869.g.vq.akamaistream.net/7/870/10869/v0001/mlb2003.download.akamai.com/10869/2012/open/mlbam/2012/03/02/mlbtv_usfnya_20117875_3gpp_h264_200K.3gp</url>
+<url playback-scenario="3GP_H264_550K_320X240">http://mediadownloads.mlb.com/mlbam/2012/03/02/mlbtv_usfnya_20117875_3gpp_h264_550K.3gp</url>
+<url playback-scenario="HTTP_CLOUD_MOBILE">http://mediadownloads.mlb.com/mlbam/2012/03/02/20117875_m3u8/master_mobile.m3u8</url>
+<url playback-scenario="HTTP_CLOUD_TABLET">http://mediadownloads.mlb.com/mlbam/2012/03/02/20117875_m3u8/master_tablet.m3u8</url>
+<url playback-scenario="FLASH_1200K_640X360">http://mediadownloads.mlb.com/mlbam/2012/03/02/mlbtv_usfnya_20117875_1200K.mp4</url>
+</media>
+</highlights>

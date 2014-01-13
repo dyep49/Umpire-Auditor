@@ -1,0 +1,5 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="13:05" game_pk="332114" game_time_et="03:05 PM" gameday_sw="Y">
+	<team type="home" code="chn" file_code="chc" abbrev="CHC" id="112" name="Chi Cubs" name_full="Chicago Cubs" name_brief="Cubs" w="0" l="1" division_id="205" league_id="104" league="NL"/>
+	<team type="away" code="oak" file_code="oak" abbrev="OAK" id="133" name="Oakland" name_full="Oakland Athletics" name_brief="Athletics" w="2" l="1" division_id="200" league_id="103" league="AL"/>
+	<stadium id="2507" name="HoHoKam Park" venue_w_chan_loc="USAZ0136" location="Mesa, AZ"/>
+</game>

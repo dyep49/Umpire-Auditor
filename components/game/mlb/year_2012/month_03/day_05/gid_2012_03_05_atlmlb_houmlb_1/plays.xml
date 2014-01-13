@@ -1,0 +1,59 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_05_atlmlb_houmlb_1" status_ind="F"  status="Final" inning="9" top_inning="F" b="0" s="0" o="3" inning_state="" event="at_bat_start">
+	<score ar="10" ah="13" ae="1" hr="5" hh="11" he="2" />
+	<players>
+		<batter pid="494686" stand="L" b_height="6-1" ab="2" h="0" avg=".500" boxname="Martinez, F">
+			<ab inning="9" event="Flyout"/>
+			<ab inning="7" event="Flyout"/>
+		</batter>
+		<pitcher pid="543809" p_throws="R" pitches="8" strikes="4" balls="4" era="0.00" boxname="Spruill"/>
+		<deck pid="407871" boxname="Thurston"/>
+		<hole pid="452671" boxname="Hernandez, Di"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="RISP"/>
+	<atbat num="88" des="Fernando Martinez flies out to center fielder Jose Constanza.  " event="Left On Base" player="494686">
+		<p type="X" id="585" x="90.13" y="138.15" des="In play, out(s)"  cc=""/>	</atbat>
+	<field>
+		<offense type="home" id="hou">
+			<man bnum="2" pid="430652" boxname="Bourgeois" note="Single" sb="0" cs="0"/>
+			<man bnum="3" pid="542340" boxname="Villar, J" note="Walk" sb="0" cs="0"/>
+		</offense>
+		<defense type="away" id="atl">
+			<man pid="543809" s_po="0" s_ass="1" s_err="0" s_fldg="1.000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="542194" s_po="1" s_ass="2" s_err="0" s_fldg="1.000" c_sb="0" c_cs="1" pos="c"/>
+			<man pid="448171" s_po="14" s_ass="3" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="425543" s_po="1" s_ass="4" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="592743" s_po="3" s_ass="2" s_err="0" s_fldg="1.000" pos="ss"/>
+			<man pid="519345" s_po="0" s_ass="2" s_err="0" s_fldg="1.000" pos="3b"/>
+			<man pid="501804" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="lf"/>
+			<man pid="468429" s_po="10" s_ass="0" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="592239" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="rf"/>
+		</defense>
+		<ball type="F" x="135.54" y="90.36" batter="494686" pitcher="543809"/>
+	</field>
+	<lineup>
+		<team type="home" pitcher="491688" index="5">
+			<man pid="543776"/>
+			<man pid="542340"/>
+			<man pid="430652"/>
+			<man pid="430957"/>
+			<man pid="494686"/>
+			<man pid="407871"/>
+			<man pid="452671"/>
+			<man pid="445599"/>
+			<man pid="543200"/>
+		</team>
+		<team type="away" pitcher="543809" index="2">
+			<man pid="501804"/>
+			<man pid="592743"/>
+			<man pid="445199"/>
+			<man pid="425543"/>
+			<man pid="592239"/>
+			<man pid="448171"/>
+			<man pid="519345"/>
+			<man pid="468429"/>
+			<man pid="542194"/>
+		</team>
+	</lineup>
+	<weather temp="64" condition="Sunny" wind="9mph L To R"/>
+	<control wait="10" box="0"/>
+</game>

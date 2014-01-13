@@ -1,0 +1,95 @@
+<game status="F" id="2012_03_03_detmlb_atlmlb_1" start_time="1:05" ampm="pm" time_zone="ET"  type="S" away_score="2" home_score="0" league="GL" series-code="" series-game-number="1" game-number="1">
+    <ticketlink></ticketlink>
+    <venueShort>Champion Stadium</venueShort>
+	<venueLong>Champion Stadium</venueLong>
+	<gallery exists="0" />
+    <broadcast>
+        <home>
+        <tv></tv>
+        <radio>WCNN 680</radio>
+</home>
+        <away>
+        <tv></tv>
+        <radio>97.1 The Ticket</radio>
+</away>
+    </broadcast>
+    <probables>
+	    
+	<home>
+		<player_id>501985</player_id>
+		<useName>Mike</useName>
+		<lastName>Minor</lastName>
+		<rosterDisplayName>Minor</rosterDisplayName> 
+        <number>36</number>
+		<throwinghand>LHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo><media content_id="20105149"><title>Minor, Teheran impress at camp</title></media></relatedvideo>
+
+	</home>
+
+        
+	<away>
+		<player_id>450729</player_id>
+		<useName>Doug</useName>
+		<lastName>Fister</lastName>
+		<rosterDisplayName>Fister</rosterDisplayName> 
+        <number>58</number>
+		<throwinghand>RHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo><media content_id="20116415"><title>Fister&#39;s message for fans</title></media></relatedvideo>
+
+	</away>
+	
+	</probables>
+    <previews>
+        <mlb>
+</mlb>
+        <home>
+</home>
+        <away>
+</away>
+    </previews>
+    <recaps>
+        <home><headline><![CDATA[Minor leads strong day for Braves pitching]]></headline><blurb><![CDATA[Mike Minor struck out three over two innings, but the Braves didn't get a hit until the eighth inning in a 2-0 loss to the Tigers in Grapefruit League action on Saturday.]]></blurb><url cid="2012030326981312"><![CDATA[/news/article.jsp?ymd=20120303&content_id=26981312&vkey=news_atl&c_id=atl]]></url>
+</home>    
+        <away><headline><![CDATA[Prince collects two hits as Tigers top Braves]]></headline><blurb><![CDATA[Prince Fielder collected two hits and reached base safely in each of his three plate appearances while helping the Tigers open the Grapefruit League season with a 2-0 win over the Braves at ESPN's Wide World of Sports Complex on Saturday afternoon. ]]></blurb><url cid="2012030326981318"><![CDATA[/news/article.jsp?ymd=20120303&content_id=26981318&vkey=news_det&c_id=det]]></url>
+</away>    
+    </recaps>
+    <wrap>
+        <mlb>
+</mlb>    
+    </wrap>
+    <photos>
+        
+<ipad>
+<url>/images/2012/02/29/uEV65vhq.png</url>
+<headline><![CDATA[MLB.com]]></headline>
+<caption><![CDATA[Spring Training 2012]]></caption>
+<credit><![CDATA[]]></credit>
+</ipad>
+    
+    </photos>
+    
+
+
+<mlbtv_alt_feed_index>
+</mlbtv_alt_feed_index>
+
+
+</game>

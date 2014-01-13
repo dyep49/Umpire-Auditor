@@ -1,0 +1,5 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="13:05" game_pk="332098" game_time_et="03:05 PM" gameday_sw="Y">
+	<team type="home" code="sfn" file_code="sf" abbrev="SF" id="137" name="San Francisco" name_full="San Francisco Giants" name_brief="Giants" w="0" l="1" division_id="203" league_id="104" league="NL"/>
+	<team type="away" code="ari" file_code="ari" abbrev="ARI" id="109" name="Arizona" name_full="Arizona Diamondbacks" name_brief="D-backs" w="1" l="0" division_id="203" league_id="104" league="NL"/>
+	<stadium id="2532" name="Scottsdale Stadium" venue_w_chan_loc="USAZ0207" location="Scottsdale, AZ"/>
+</game>

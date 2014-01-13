@@ -1,0 +1,58 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_03_arimlb_sfnmlb_1" status_ind="F"  status="Final" inning="9" top_inning="F" b="0" s="0" o="3" inning_state="" event="at_bat_start">
+	<score ar="9" ah="15" ae="0" hr="6" hh="9" he="1" />
+	<players>
+		<batter pid="453923" stand="L" b_height="5-11" ab="2" h="0" avg=".000" boxname="Blanco">
+			<ab inning="9" event="Groundout"/>
+			<ab inning="7" event="Strikeout"/>
+		</batter>
+		<pitcher pid="466458" p_throws="R" pitches="10" strikes="9" balls="1" era="9.00" boxname="Ortega"/>
+		<deck pid="488917" boxname="Graham, T"/>
+		<hole pid="489209" boxname="Pill"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="RISP"/>
+	<atbat num="81" des="Gregor Blanco grounds out, pitcher Yonata Ortega to first baseman Ryan Wheeler.  " event="Left On Base" player="453923">
+		<p type="X" id="518" x="101.29" y="139.88" des="In play, out(s)"  cc=""/>	</atbat>
+	<field>
+		<offense type="home" id="sfn">
+			<man bnum="2" pid="502034" boxname="Burriss" note="Double" sb="0" cs="0"/>
+		</offense>
+		<defense type="away" id="ari">
+			<man pid="466458" s_po="0" s_ass="1" s_err="0" s_fldg="1.000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="452150" s_po="3" s_ass="1" s_err="0" s_fldg="1.000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="572253" s_po="3" s_ass="0" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="518653" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="2b"/>
+			<man pid="285068" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="ss"/>
+			<man pid="446373" s_po="0" s_ass="1" s_err="0" s_fldg="1.000" pos="3b"/>
+			<man pid="571868" s_po="2" s_ass="0" s_err="0" s_fldg="1.000" pos="lf"/>
+			<man pid="542979" s_po="2" s_ass="0" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="502261" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="rf"/>
+		</defense>
+		<ball type="G" x="127.51" y="180.72" batter="453923" pitcher="466458"/>
+	</field>
+	<lineup>
+		<team type="home" pitcher="466948" index="1">
+			<man pid="453923"/>
+			<man pid="488917"/>
+			<man pid="489209"/>
+			<man pid="543216"/>
+			<man pid="518502"/>
+			<man pid="474832"/>
+			<man pid="435078"/>
+			<man pid="502034"/>
+			<man pid="516949"/>
+		</team>
+		<team type="away" pitcher="466458" index="9">
+			<man pid="572253"/>
+			<man pid="285068"/>
+			<man pid="502261"/>
+			<man pid="452150"/>
+			<man pid="542979"/>
+			<man pid="446373"/>
+			<man pid="520209"/>
+			<man pid="571868"/>
+			<man pid="518653"/>
+		</team>
+	</lineup>
+	<weather temp="64" condition="Sunny" wind="2mph In From CF"/>
+	<control wait="10" box="0"/>
+</game>

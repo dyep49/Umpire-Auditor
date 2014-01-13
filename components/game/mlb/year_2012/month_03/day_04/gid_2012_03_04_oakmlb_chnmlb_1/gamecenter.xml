@@ -1,0 +1,95 @@
+<game status="F" id="2012_03_04_oakmlb_chnmlb_1" start_time="3:05" ampm="pm" time_zone="ET"  type="S" away_score="12" home_score="10" league="CL" series-code="" series-game-number="1" game-number="1">
+    <ticketlink></ticketlink>
+    <venueShort>HoHoKam Park</venueShort>
+	<venueLong>HoHoKam Park</venueLong>
+	<gallery exists="0" />
+    <broadcast>
+        <home>
+        <tv></tv>
+        <radio>MLB.com</radio>
+</home>
+        <away>
+        <tv></tv>
+        <radio>95.7 FM The Game</radio>
+</away>
+    </broadcast>
+    <probables>
+	    
+	<home>
+		<player_id>150438</player_id>
+		<useName>Rodrigo</useName>
+		<lastName>Lopez</lastName>
+		<rosterDisplayName>Lopez</rosterDisplayName> 
+        <number>19</number>
+		<throwinghand>RHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo><media content_id="19580501"><title>Lopez&#39;s scoreless start</title></media></relatedvideo>
+
+	</home>
+
+        
+	<away>
+		<player_id>435221</player_id>
+		<useName>Brandon</useName>
+		<lastName>McCarthy</lastName>
+		<rosterDisplayName>McCarthy</rosterDisplayName> 
+        <number>32</number>
+		<throwinghand>RHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo><media content_id="20180357"><title>A&#39;s on Spring Training</title></media></relatedvideo>
+
+	</away>
+	
+	</probables>
+    <previews>
+        <mlb>
+</mlb>
+        <home>
+</home>
+        <away>
+</away>
+    </previews>
+    <recaps>
+        <home><headline><![CDATA[Cardenas picks up three RBIs in Cubs' loss]]></headline><blurb><![CDATA[Brandon Allen drove in seven runs, including the tie-breaking run on a groundout in the ninth, to lift the Athletics to a 12-10 victory Sunday over the Cubs and spoil new Chicago manager Dale Sveum's Cactus League opener in front of 10,366 at HoHoKam Park.]]></blurb><url cid="2012030427004722"><![CDATA[/news/article.jsp?ymd=20120304&content_id=27004722&vkey=recap&c_id=chc]]></url>
+</home>    
+        <away><headline><![CDATA[Allen notches seven RBIs to lift A's past Cubs]]></headline><blurb><![CDATA[Brandon Allen drove in seven runs, including the tie-breaking run on a groundout in the ninth, to lift the Athletics to a 12-10 victory Sunday over the Cubs and spoil new Chicago manager Dale Sveum's Cactus League opener in front of 10,366 at HoHoKam Park.]]></blurb><url cid="2012030427004738"><![CDATA[/news/article.jsp?ymd=20120304&content_id=27004738&vkey=recap&c_id=oak]]></url>
+</away>    
+    </recaps>
+    <wrap>
+        <mlb>
+</mlb>    
+    </wrap>
+    <photos>
+        
+<ipad>
+<url>/images/2012/02/29/uEV65vhq.png</url>
+<headline><![CDATA[MLB.com]]></headline>
+<caption><![CDATA[Spring Training 2012]]></caption>
+<credit><![CDATA[]]></credit>
+</ipad>
+    
+    </photos>
+    
+
+
+<mlbtv_alt_feed_index>
+</mlbtv_alt_feed_index>
+
+
+</game>

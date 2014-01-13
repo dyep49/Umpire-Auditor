@@ -1,0 +1,58 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_02_flsbbc_detmlb_1" status_ind="F"  status="Final" inning="9" top_inning="T" b="0" s="0" o="3" inning_state="" event="at_bat_start">
+	<score ar="1" ah="4" ae="3" hr="11" hh="11" he="0" />
+	<players>
+		<batter pid="600291" stand="L" b_height="5-11" ab="2" h="0" avg=".000" boxname="Perron">
+			<ab inning="9" event="Grounded Into DP"/>
+			<ab inning="7" event="Groundout"/>
+		</batter>
+		<pitcher pid="543821" p_throws="R" pitches="7" strikes="3" balls="4" era="0.00" boxname="Stohr"/>
+		<deck pid="600292" boxname="Correnti"/>
+		<hole pid="580914" boxname="Downum"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="RISP"/>
+	<atbat num="74" des="Jim  Perron grounds into double play, pitcher Tyler Stohr to shortstop Audy Ciriaco to first baseman Ryan Strieby.    Alex Buschmann out at 2nd.  " event="Left On Base" player="600287">
+		<p type="X" id="500" x="88.41" y="139.88" des="In play, out(s)"  cc=""/>	</atbat>
+	<field>
+		<offense type="away" id="fls">
+			<man bnum="2" pid="595951" boxname="Flanagan" note="Double" sb="0" cs="0"/>
+		</offense>
+		<defense type="home" id="det">
+			<man pid="543821" s_po="0" s_ass="1" s_err="0" s_fldg="1.000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="543510" s_po="2" s_ass="1" s_err="0" s_fldg="1.000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="456428" s_po="6" s_ass="0" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="541650" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="2b"/>
+			<man pid="455371" s_po="1" s_ass="2" s_err="0" s_fldg="1.000" pos="ss"/>
+			<man pid="592206" s_po="1" s_ass="1" s_err="0" s_fldg="1.000" pos="3b"/>
+			<man pid="457568" s_po="2" s_ass="0" s_err="0" s_fldg="1.000" pos="lf"/>
+			<man pid="450641" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="460004" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="rf"/>
+		</defense>
+		<ball type="G" x="123.49" y="177.71" batter="600291" pitcher="543821"/>
+	</field>
+	<lineup>
+		<team type="home" pitcher="543821" index="4">
+			<man pid="450641"/>
+			<man pid="460004"/>
+			<man pid="592206"/>
+			<man pid="456428"/>
+			<man pid="457568"/>
+			<man pid="543510"/>
+			<man pid="455371"/>
+			<man pid="502968"/>
+			<man pid="541650"/>
+		</team>
+		<team type="away" pitcher="613477" index="8">
+			<man pid="580914"/>
+			<man pid="600294"/>
+			<man pid="613480"/>
+			<man pid="613488"/>
+			<man pid="595951"/>
+			<man pid="580909"/>
+			<man pid="600287"/>
+			<man pid="600291"/>
+			<man pid="600292"/>
+		</team>
+	</lineup>
+	<weather temp="81" condition="Sunny" wind="12mph Out To LF"/>
+	<control wait="10" box="0"/>
+</game>

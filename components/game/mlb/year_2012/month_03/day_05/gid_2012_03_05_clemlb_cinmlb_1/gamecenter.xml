@@ -1,0 +1,95 @@
+<game status="F" id="2012_03_05_clemlb_cinmlb_1" start_time="3:05" ampm="pm" time_zone="ET"  type="S" away_score="7" home_score="12" league="CL" series-code="" series-game-number="3" game-number="1">
+    <ticketlink></ticketlink>
+    <venueShort>Goodyear Ballpark</venueShort>
+	<venueLong>Goodyear Ballpark</venueLong>
+	<gallery exists="0" />
+    <broadcast>
+        <home>
+        <tv>FS-O, MLB.TV, MLBN (delay)</tv>
+        <radio>MLB.com</radio>
+</home>
+        <away>
+        <tv>MLBN (delay), MLB.TV</tv>
+        <radio>WTAM 1100</radio>
+</away>
+    </broadcast>
+    <probables>
+	    
+	<home>
+		<player_id>456501</player_id>
+		<useName>Johnny</useName>
+		<lastName>Cueto</lastName>
+		<rosterDisplayName>Cueto</rosterDisplayName> 
+        <number>47</number>
+		<throwinghand>RHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo><media content_id="20101523"><title>Cueto throws at Reds camp</title></media></relatedvideo>
+
+	</home>
+
+        
+	<away>
+		<player_id>475416</player_id>
+		<useName>Justin</useName>
+		<lastName>Masterson</lastName>
+		<rosterDisplayName>Masterson</rosterDisplayName> 
+        <number>63</number>
+		<throwinghand>RHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo><media content_id="20117713"><title>Masterson on Opening Day start</title></media></relatedvideo>
+
+	</away>
+	
+	</probables>
+    <previews>
+        <mlb>
+</mlb>
+        <home>
+</home>
+        <away>
+</away>
+    </previews>
+    <recaps>
+        <home>
+</home>    
+        <away><headline><![CDATA[Santana homers, but Masterson falters in loss]]></headline><blurb><![CDATA[In a matchup of the teams' Opening Day starters, and they fared quite differently. For Cincinnati, Johnny Cueto gave up one run and two hits over two innings with no walks and two strikeouts. Cleveland's Justin Masterson gave up six runs over 1 1/3 innings with five hits, three walks and one strikeout.]]></blurb><url cid="2012030527027458"><![CDATA[/news/article.jsp?ymd=20120305&content_id=27027458&vkey=news_cle&c_id=cle]]></url>
+</away>    
+    </recaps>
+    <wrap>
+        <mlb>
+</mlb>    
+    </wrap>
+    <photos>
+        
+<ipad>
+<url>/images/2012/02/29/uEV65vhq.png</url>
+<headline><![CDATA[MLB.com]]></headline>
+<caption><![CDATA[Spring Training 2012]]></caption>
+<credit><![CDATA[]]></credit>
+</ipad>
+    
+    </photos>
+    
+
+
+<mlbtv_alt_feed_index>
+</mlbtv_alt_feed_index>
+
+
+</game>

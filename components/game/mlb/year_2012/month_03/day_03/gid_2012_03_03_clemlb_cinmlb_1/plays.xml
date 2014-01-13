@@ -1,0 +1,58 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_03_clemlb_cinmlb_1" status_ind="FT"  status="Final" reason="Tied" inning="9" top_inning="F" b="0" s="0" o="3" inning_state="" event="strikeout">
+	<score ar="6" ah="12" ae="1" hr="6" hh="12" he="2" />
+	<players>
+		<batter pid="457926" stand="R" b_height="6-2" ab="3" h="1" avg=".333" boxname="Janish">
+			<ab inning="9" event="Strikeout"/>
+			<ab inning="7" event="Single"/>
+			<ab inning="5" event="Flyout"/>
+		</batter>
+		<pitcher pid="547348" p_throws="R" pitches="13" strikes="10" balls="3" era="9.00" boxname="Lee, C"/>
+		<deck pid="519304" boxname="Soto"/>
+		<hole pid="502317" boxname="Heisey"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="Empty"/>
+	<atbat num="78" des="Paul Janish called out on strikes.  " event="Strikeout" player="457926">
+		<p type="S" id="497" x="89.27" y="131.24" des="Swinging Strike"  cc=""/>		<p type="S" id="498" x="89.27" y="131.24" des="Swinging Strike"  cc=""/>		<p type="S" id="499" x="88.41" y="131.24" des="Called Strike"  cc=""/>	</atbat>
+	<field>
+		<offense type="home" id="cin">
+		</offense>
+		<defense type="away" id="cle">
+			<man pid="547348" s_po="0" s_ass="0" s_err="0" s_fldg=".000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="450192" s_po="3" s_ass="0" s_err="0" s_fldg="1.000" c_sb="1" c_cs="0" pos="c"/>
+			<man pid="453181" s_po="7" s_ass="0" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="543647" s_po="0" s_ass="3" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="501726" s_po="0" s_ass="1" s_err="0" s_fldg="1.000" pos="ss"/>
+			<man pid="430946" s_po="0" s_ass="2" s_err="1" s_fldg=".667" pos="3b"/>
+			<man pid="430930" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="lf"/>
+			<man pid="429712" s_po="4" s_ass="0" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="489166" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="rf"/>
+		</defense>
+		<ball />
+	</field>
+	<lineup>
+		<team type="home" pitcher="444427" index="2">
+			<man pid="407832"/>
+			<man pid="457926"/>
+			<man pid="519304"/>
+			<man pid="502317"/>
+			<man pid="544371"/>
+			<man pid="407483"/>
+			<man pid="464426"/>
+			<man pid="571466"/>
+			<man pid="453943"/>
+		</team>
+		<team type="away" pitcher="547348" index="5">
+			<man pid="429712"/>
+			<man pid="501726"/>
+			<man pid="489166"/>
+			<man pid="450192"/>
+			<man pid="455167"/>
+			<man pid="453181"/>
+			<man pid="543647"/>
+			<man pid="430930"/>
+			<man pid="430946"/>
+		</team>
+	</lineup>
+	<weather temp="67" condition="Sunny" wind="10mph In From RF"/>
+	<control wait="10" box="0"/>
+</game>

@@ -1,0 +1,56 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_05_milmlb_sfnmlb_1" status_ind="F"  status="Final" inning="9" top_inning="F" b="0" s="0" o="3" inning_state="" event="at_bat_start">
+	<score ar="7" ah="9" ae="2" hr="3" hh="4" he="2" />
+	<players>
+		<batter pid="458689" stand="R" b_height="6-5" ab="1" h="0" avg=".000" boxname="Dominguez">
+			<ab inning="9" event="Grounded Into DP"/>
+		</batter>
+		<pitcher pid="453332" p_throws="R" pitches="3" strikes="3" balls="0" era="0.00" boxname="Butler, Js"/>
+		<deck pid="489209" boxname="Pill"/>
+		<hole pid="523261" boxname="Kieschnick"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="Empty"/>
+	<atbat num="77" des="Chris Dominguez grounds into double play, second baseman Edwin Maysonet to first baseman Travis Ishikawa to shortstop Jeff Bianchi.    Justin Christian out at 2nd.  " event="Grounded Into DP" player="451629">
+		<p type="X" id="504" x="92.70" y="145.92" des="In play, out(s)"  cc=""/>	</atbat>
+	<field>
+		<offense type="home" id="sfn">
+		</offense>
+		<defense type="away" id="mil">
+			<man pid="453332" s_po="0" s_ass="0" s_err="0" s_fldg=".000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="455117" s_po="6" s_ass="0" s_err="0" s_fldg="1.000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="448170" s_po="10" s_ass="1" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="446474" s_po="1" s_ass="4" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="488703" s_po="2" s_ass="0" s_err="0" s_fldg="1.000" pos="ss"/>
+			<man pid="519412" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="3b"/>
+			<man pid="489024" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="lf"/>
+			<man pid="502582" s_po="2" s_ass="0" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="518725" s_po="2" s_ass="0" s_err="0" s_fldg="1.000" pos="rf"/>
+		</defense>
+		<ball type="G" x="146.59" y="160.64" batter="458689" pitcher="453332"/>
+	</field>
+	<lineup>
+		<team type="home" pitcher="519229" index="5">
+			<man pid="488917"/>
+			<man pid="519082"/>
+			<man pid="543216"/>
+			<man pid="451629"/>
+			<man pid="458689"/>
+			<man pid="489209"/>
+			<man pid="523261"/>
+			<man pid="435078"/>
+			<man pid="571830"/>
+		</team>
+		<team type="away" pitcher="453332" index="1">
+			<man pid="462405"/>
+			<man pid="518725"/>
+			<man pid="502582"/>
+			<man pid="488703"/>
+			<man pid="448170"/>
+			<man pid="455117"/>
+			<man pid="519412"/>
+			<man pid="489024"/>
+			<man pid="446474"/>
+		</team>
+	</lineup>
+	<weather temp="66" condition="Clear" wind="2mph L To R"/>
+	<control wait="10" box="0"/>
+</game>

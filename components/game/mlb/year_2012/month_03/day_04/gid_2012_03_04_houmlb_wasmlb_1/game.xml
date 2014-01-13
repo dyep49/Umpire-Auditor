@@ -1,0 +1,5 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="13:05" game_pk="332110" game_time_et="01:05 PM" gameday_sw="Y">
+	<team type="home" code="was" file_code="was" abbrev="WSH" id="120" name="Washington" name_full="Washington Nationals" name_brief="Nationals" w="0" l="2" division_id="204" league_id="104" league="NL"/>
+	<team type="away" code="hou" file_code="hou" abbrev="HOU" id="117" name="Houston" name_full="Houston Astros" name_brief="Astros" w="2" l="0" division_id="205" league_id="104" league="NL"/>
+	<stadium id="2513" name="Space Coast Stadium" venue_w_chan_loc="USFL0579" location="Viera, FL"/>
+</game>

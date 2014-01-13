@@ -1,0 +1,58 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game id="2012_03_05_lanmlb_chamlb_1" status_ind="F"  status="Final" inning="9" top_inning="F" b="0" s="0" o="3" inning_state="" event="at_bat_start">
+	<score ar="6" ah="11" ae="0" hr="4" hh="6" he="0" />
+	<players>
+		<batter pid="501954" stand="R" b_height="5-10" ab="2" h="0" avg=".000" boxname="Martinez, O">
+			<ab inning="9" event="Flyout"/>
+			<ab inning="7" event="Strikeout"/>
+		</batter>
+		<pitcher pid="457761" p_throws="R" pitches="13" strikes="8" balls="5" era="18.00" boxname="Tucker"/>
+		<deck pid="458668" boxname="Danks, Jd"/>
+		<hole pid="571499" boxname="Blanke"/>
+	</players>
+	<splits batter="vs_RHP" pitcher="vs_LHB" runner="Men_On"/>
+	<atbat num="75" des="Osvaldo Martinez flies out to left fielder Alex Castellanos.  " event="Left On Base" player="501954">
+		<p type="X" id="478" x="46.35" y="97.57" des="In play, out(s)"  cc=""/>	</atbat>
+	<field>
+		<offense type="home" id="cha">
+			<man bnum="1" pid="452121" boxname="Lillibridge" note="Single" sb="0" cs="0"/>
+		</offense>
+		<defense type="away" id="lan">
+			<man pid="457761" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" p_sb="0" p_cs="0" pos="p"/>
+			<man pid="543148" s_po="5" s_ass="0" s_err="0" s_fldg="1.000" c_sb="0" c_cs="0" pos="c"/>
+			<man pid="435222" s_po="5" s_ass="2" s_err="0" s_fldg="1.000" pos="1b"/>
+			<man pid="474443" s_po="0" s_ass="2" s_err="0" s_fldg="1.000" pos="2b"/>
+			<man pid="451088" s_po="1" s_ass="2" s_err="0" s_fldg="1.000" pos="ss"/>
+			<man pid="452199" s_po="0" s_ass="0" s_err="0" s_fldg=".000" pos="3b"/>
+			<man pid="543008" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="lf"/>
+			<man pid="469721" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="cf"/>
+			<man pid="475100" s_po="1" s_ass="0" s_err="0" s_fldg="1.000" pos="rf"/>
+		</defense>
+		<ball type="F" x="94.38" y="98.39" batter="501954" pitcher="457761"/>
+	</field>
+	<lineup>
+		<team type="home" pitcher="489056" index="9">
+			<man pid="458668"/>
+			<man pid="571499"/>
+			<man pid="493120"/>
+			<man pid="518706"/>
+			<man pid="430681"/>
+			<man pid="500871"/>
+			<man pid="502200"/>
+			<man pid="452121"/>
+			<man pid="501954"/>
+		</team>
+		<team type="away" pitcher="457761" index="4">
+			<man pid="451088"/>
+			<man pid="474443"/>
+			<man pid="469721"/>
+			<man pid="475100"/>
+			<man pid="543008"/>
+			<man pid="435222"/>
+			<man pid="452199"/>
+			<man pid="543148"/>
+			<man pid="488676"/>
+		</team>
+	</lineup>
+	<weather temp="77" condition="Cloudy" wind="1mph Varies"/>
+	<control wait="10" box="0"/>
+</game>

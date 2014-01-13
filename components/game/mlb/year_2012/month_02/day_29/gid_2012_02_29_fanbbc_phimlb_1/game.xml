@@ -1,0 +1,5 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="E" local_game_time="13:05" game_pk="332093" game_time_et="01:05 PM" gameday_sw="N">
+	<team type="home" code="phi" file_code="phi" abbrev="PHI" id="143" name="Philadelphia" name_full="Philadelphia Phillies" name_brief="Phillies" w="1" l="0" division_id="204" league_id="104" league="NL"/>
+	<team type="away" code="fan" file_code="fsu" abbrev="FSU" id="101" name="Florida State U." name_full="Florida State University Seminoles" name_brief="Seminoles" w="0" l="1" division_id="" league_id="108" league="ACC"/>
+	<stadium id="2700" name="Bright House Field" venue_w_chan_loc="USFL0084" location="Clearwater, FL"/>
+</game>

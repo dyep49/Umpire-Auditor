@@ -1,0 +1,5 @@
+<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="19:05" game_pk="332131" game_time_et="07:05 PM" gameday_sw="Y">
+	<team type="home" code="bal" file_code="bal" abbrev="BAL" id="110" name="Baltimore" name_full="Baltimore Orioles" name_brief="Orioles" w="1" l="1" division_id="201" league_id="103" league="AL"/>
+	<team type="away" code="pit" file_code="pit" abbrev="PIT" id="134" name="Pittsburgh" name_full="Pittsburgh Pirates" name_brief="Pirates" w="1" l="2" division_id="205" league_id="104" league="NL"/>
+	<stadium id="2508" name="Ed Smith Stadium" venue_w_chan_loc="USFL0446" location="Sarasota, FL"/>
+</game>

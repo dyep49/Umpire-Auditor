@@ -1,0 +1,95 @@
+<game status="F" id="2012_03_03_wasmlb_houmlb_1" start_time="1:05" ampm="pm" time_zone="ET"  type="S" away_score="1" home_score="3" league="GL" series-code="" series-game-number="1" game-number="1">
+    <ticketlink></ticketlink>
+    <venueShort>Osceola County Stadium</venueShort>
+	<venueLong>Osceola County Stadium</venueLong>
+	<gallery exists="0" />
+    <broadcast>
+        <home>
+        <tv></tv>
+        <radio>KTRH 740</radio>
+</home>
+        <away>
+        <tv></tv>
+        <radio>106.7 The Fan</radio>
+</away>
+    </broadcast>
+    <probables>
+	    
+	<home>
+		<player_id>115817</player_id>
+		<useName>Livan</useName>
+		<lastName>Hernandez</lastName>
+		<rosterDisplayName>Hernandez, L</rosterDisplayName> 
+        <number>61</number>
+		<throwinghand>RHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo><media content_id="20177413"><title>Livan, Bixler star vs. Phillies</title></media></relatedvideo>
+
+	</home>
+
+        
+	<away>
+		<player_id>429719</player_id>
+		<useName>Edwin</useName>
+		<lastName>Jackson</lastName>
+		<rosterDisplayName>Jackson, E</rosterDisplayName> 
+        <number>33</number>
+		<throwinghand>RHP</throwinghand>
+		<wins>0</wins>
+		<losses>0</losses>
+		<era>-.--</era>
+		<so>0</so>
+		<std_wins>0</std_wins>
+		<std_losses>0</std_losses>
+		<std_era>-.--</std_era>
+		<std_so>0</std_so>
+		<report><![CDATA[]]></report>
+	    <relatedvideo><media content_id="20103197"><title>Nationals start 2012 campaign</title></media></relatedvideo>
+
+	</away>
+	
+	</probables>
+    <previews>
+        <mlb>
+</mlb>
+        <home>
+</home>
+        <away>
+</away>
+    </previews>
+    <recaps>
+        <home><headline><![CDATA[Johnson's HR carries Astros over Nationals]]></headline><blurb><![CDATA[Chris Johnson made a strong opening impression in his bid to win the Astros' starting third-base job by hitting a two-run homer in the fourth inning off left-hander Ross Detwiler to lead Houston to a 3-1 win over the Nationals in the Grapefruit League opener for both teams Saturday at Osceola County Stadium.]]></blurb><url cid="2012030326977740"><![CDATA[/news/article.jsp?ymd=20120303&content_id=26977740&vkey=news_hou&c_id=hou]]></url>
+</home>    
+        <away><headline><![CDATA[Jackson looks strong in Nats' opening loss]]></headline><blurb><![CDATA[Edwin Jackson made his debut for the Nationals, allowing one hit and two walks in two scoreless innings, in a 3-1 loss to the Astros in Saturday's Grapefruit League opener.]]></blurb><url cid="2012030326977738"><![CDATA[/news/article.jsp?ymd=20120303&content_id=26977738&vkey=news_was&c_id=was]]></url>
+</away>    
+    </recaps>
+    <wrap>
+        <mlb>
+</mlb>    
+    </wrap>
+    <photos>
+        
+<ipad>
+<url>/images/2012/02/29/uEV65vhq.png</url>
+<headline><![CDATA[MLB.com]]></headline>
+<caption><![CDATA[Spring Training 2012]]></caption>
+<credit><![CDATA[]]></credit>
+</ipad>
+    
+    </photos>
+    
+
+
+<mlbtv_alt_feed_index>
+</mlbtv_alt_feed_index>
+
+
+</game>

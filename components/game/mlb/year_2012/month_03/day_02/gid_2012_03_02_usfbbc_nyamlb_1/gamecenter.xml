@@ -1,0 +1,93 @@
+<game status="F" id="2012_03_02_usfbbc_nyamlb_1" start_time="1:05" ampm="pm" time_zone="ET"  type="E" away_score="0" home_score="11" league="" series-code="" series-game-number="1" game-number="1">
+    <ticketlink></ticketlink>
+    <venueShort>George M. Steinbrenner Field</venueShort>
+	<venueLong>George M. Steinbrenner Field</venueLong>
+	<gallery exists="0" />
+    <broadcast>
+        <home>
+        <tv></tv>
+        <radio></radio>
+</home>
+        <away>
+        <tv></tv>
+        <radio></radio>
+</away>
+    </broadcast>
+    <probables>
+	    
+	<home>
+		<player_id></player_id>
+		<useName></useName>
+		<lastName></lastName>
+		<rosterDisplayName></rosterDisplayName> 
+        <number></number>
+		<throwinghand></throwinghand>
+		<wins></wins>
+		<losses></losses>
+		<era></era>
+		<so></so>
+		<std_wins></std_wins>
+		<std_losses></std_losses>
+		<std_era></std_era>
+		<std_so></std_so>
+		<report><![CDATA[]]></report>
+	    
+	</home>
+
+        
+	<away>
+		<player_id></player_id>
+		<useName></useName>
+		<lastName></lastName>
+		<rosterDisplayName></rosterDisplayName> 
+        <number></number>
+		<throwinghand></throwinghand>
+		<wins></wins>
+		<losses></losses>
+		<era></era>
+		<so></so>
+		<std_wins></std_wins>
+		<std_losses></std_losses>
+		<std_era></std_era>
+		<std_so></std_so>
+		<report><![CDATA[]]></report>
+	    
+	</away>
+	
+	</probables>
+    <previews>
+        <mlb>
+</mlb>
+        <home>
+</home>
+        <away>
+</away>
+    </previews>
+    <recaps>
+        <home><headline><![CDATA[Prospects shine in Yankees' victory over USF]]></headline><blurb><![CDATA[The Yankees opened their spring exhibition slate on Friday at George M. Steinbrenner Field, posting an 11-0 victory over the University of South Florida Bulls.]]></blurb><url cid="2012030226963148"><![CDATA[/mlb/gameday/index.jsp?gid=2012_03_02_usfbbc_nyamlb_1&mode=recap&c_id=nyy]]></url>
+</home>    
+        <away>
+</away>    
+    </recaps>
+    <wrap>
+        <mlb>
+</mlb>    
+    </wrap>
+    <photos>
+        
+<ipad>
+<url>/images/2012/02/29/uEV65vhq.png</url>
+<headline><![CDATA[MLB.com]]></headline>
+<caption><![CDATA[Spring Training 2012]]></caption>
+<credit><![CDATA[]]></credit>
+</ipad>
+    
+    </photos>
+    
+
+
+<mlbtv_alt_feed_index>
+</mlbtv_alt_feed_index>
+
+
+</game>

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt-->
+<games year="2012" month="03" day="02" modified_date="2012-04-06T23:46:14Z"
+       next_day_date="2012-03-03">
+   <game id="2012/03/02/guhbbc-wasmlb-1" venue="Space Coast Stadium" game_pk="336450"
+         time="12:00"
+         time_zone="ET"
+         ampm="PM"
+         away_time="12:00"
+         away_time_zone="ET"
+         away_ampm="PM"
+         home_time="12:00"
+         home_time_zone="ET"
+         home_ampm="PM"
+         game_type="E"
+         resume_date=""
+         original_date="2012/03/02"
+         time_zone_aw_lg="0"
+         time_zone_hm_lg="-5"
+         time_aw_lg=""
+         aw_lg_ampm=""
+         tz_aw_lg_gen=""
+         time_hm_lg="12:00"
+         hm_lg_ampm="PM"
+         tz_hm_lg_gen="ET"
+         venue_id="2513"
+         scheduled_innings="9"
+         description="vs. Georgetown"
+         away_name_abbrev="GU"
+         home_name_abbrev="WSH"
+         away_code="guh"
+         away_file_code="t2330"
+         away_team_id="2330"
+         away_team_city="Georgetown U."
+         away_team_name="Hoyas"
+         away_division=""
+         away_league_id="107"
+         away_sport_code="bbc"
+         home_code="was"
+         home_file_code="was"
+         home_team_id="120"
+         home_team_city="Washington"
+         home_team_name="Nationals"
+         home_division="E"
+         home_league_id="104"
+         home_sport_code="mlb"
+         day="FRI"
+         gameday_sw="N"
+         away_games_back="-"
+         home_games_back="-"
+         away_games_back_wildcard=""
+         home_games_back_wildcard="-"
+         venue_w_chan_loc="USFL0579"
+         gameday="2012_03_02_guhbbc_wasmlb_1"
+         away_win="0"
+         away_loss="1"
+         home_win="1"
+         home_loss="0"
+         game_data_directory="/gameday/components/game/mlb/gid_2012_03_02_guhbbc_wasmlb_1"
+         league="BN">
+      <status status="Final" ind="F" reason="" inning="9" top_inning="Y" b="0" s="0" o="3"
+              inning_state=""/>
+      <linescore>
+         <inning away="0" home="1"/> 
+         <inning away="0" home="0"/> 
+         <inning away="0" home="0"/> 
+         <inning away="0" home="1"/> 
+         <inning away="0" home="0"/> 
+         <inning away="0" home="1"/> 
+         <inning away="0" home="0"/> 
+         <inning away="0" home="0"/> 
+         <inning away="0"/> 
+         <r away="0" home="3" diff="3"/> 
+         <h away="4" home="5"/> 
+         <e away="4" home="0"/> 
+      </linescore>
+      <winning_pitcher id="545357" last="Purke" first="Matt" name_display_roster="Purke" number="50"
+                       era="0.00"
+                       wins="1"
+                       losses="0"/>
+      <losing_pitcher id="613470" last="Harris" first="Will" name_display_roster="Harris" number="31"
+                      era="0.00"
+                      wins="0"
+                      losses="1"/>
+      <save_pitcher id="445246" last="Fulchino" first="Jeff" number="46"
+                    name_display_roster="Fulchino"
+                    era="0.00"
+                    wins="0"
+                    losses="0"
+                    saves="1"
+                    svo="0"/>
+      <links wrapup="" home_preview="" away_preview="" preview="" tv_station=""/>
+      <broadcast>
+        <home>
+            <tv/>
+            <radio/>
+         </home>
+        <away>
+            <tv/>
+            <radio/>
+         </away>
+      </broadcast>
+      <game_media/>
+   </game>
+   <game id="2012/03/02/flsbbc-detmlb-1" venue="Joker Marchant Stadium" game_pk="332094"
+         time="1:05"
+         time_zone="ET"
+         ampm="PM"
+         away_time="1:05"
+         away_time_zone="ET"
+         away_ampm="PM"
+         home_time="1:05"
+         home_time_zone="ET"
+         home_ampm="PM"
+         game_type="E"
+         resume_date=""
+         original_date="2012/03/02"
+         time_zone_aw_lg="0"
+         time_zone_hm_lg="-5"
+         time_aw_lg=""
+         aw_lg_ampm=""
+         tz_aw_lg_gen=""
+         time_hm_lg="1:05"
+         hm_lg_ampm="PM"
+         tz_hm_lg_gen="ET"
+         venue_id="2511"
+         scheduled_innings="9"
+         description="vs Florida Southern"
+         away_name_abbrev="FSC"
+         home_name_abbrev="DET"
+         away_code="fls"
+         away_file_code="fso"
+         away_team_id="228"
+         away_team_city="Fla. Southern Col."
+         away_team_name="Mocs"
+         away_division=""
+         away_league_id="108"
+         away_sport_code="bbc"
+         home_code="det"
+         home_file_code="det"
+         home_team_id="116"
+         home_team_city="Detroit"
+         home_team_name="Tigers"
+         home_division="C"
+         home_league_id="103"
+         home_sport_code="mlb"
+         day="FRI"
+         gameday_sw="N"
+         away_games_back="-"
+         home_games_back="-"
+         away_games_back_wildcard=""
+         home_games_back_wildcard="-"
+         venue_w_chan_loc="USFL0267"
+         gameday="2012_03_02_flsbbc_detmlb_1"
+         away_win="0"
+         away_loss="1"
+         home_win="1"
+         home_loss="0"
+         game_data_directory="/gameday/components/game/mlb/gid_2012_03_02_flsbbc_detmlb_1"
+         league="AA">
+      <status status="Final" ind="F" reason="" inning="9" top_inning="Y" b="0" s="0" o="3"
+              inning_state=""/>
+      <linescore>
+         <inning away="0" home="2"/> 
+         <inning away="0" home="0"/> 
+         <inning away="0" home="0"/> 
+         <inning away="0" home="1"/> 
+         <inning away="1" home="0"/> 
+         <inning away="0" home="2"/> 
+         <inning away="0" home="6"/> 
+         <inning away="0" home="0"/> 
+         <inning away="0"/> 
+         <r away="1" home="11" diff="10"/> 
+         <h away="4" home="11"/> 
+         <e away="3" home="0"/> 
+      </linescore>
+      <winning_pitcher id="501989" last="Oliver" first="Andrew" name_display_roster="Oliver"
+                       number="43"
+                       era="0.00"
+                       wins="1"
+                       losses="0"/>
+      <losing_pitcher id="613482" last="Jackson" first="Austin" name_display_roster="Jackson"
+                      number="28"
+                      era="9.00"
+                      wins="0"
+                      losses="1"/>
+      <save_pitcher id="" last="" first="" number="" name_display_roster="" era="0" wins="0"
+                    losses="0"
+                    saves="0"
+                    svo="0"/>
+      <links wrapup="" home_preview="" away_preview="" preview="" tv_station=""/>
+      <broadcast>
+        <home>
+            <tv/>
+            <radio/>
+         </home>
+        <away>
+            <tv/>
+            <radio/>
+         </away>
+      </broadcast>
+      <game_media/>
+   </game>
+   <game id="2012/03/02/usfbbc-nyamlb-1" venue="George M. Steinbrenner Field"
+         game_pk="332096"
+         time="1:05"
+         time_zone="ET"
+         ampm="PM"
+         away_time="1:05"
+         away_time_zone="ET"
+         away_ampm="PM"
+         home_time="1:05"
+         home_time_zone="ET"
+         home_ampm="PM"
+         game_type="E"
+         resume_date=""
+         original_date="2012/03/02"
+         time_zone_aw_lg="0"
+         time_zone_hm_lg="-5"
+         time_aw_lg=""
+         aw_lg_ampm=""
+         tz_aw_lg_gen=""
+         time_hm_lg="1:05"
+         hm_lg_ampm="PM"
+         tz_hm_lg_gen="ET"
+         venue_id="2523"
+         scheduled_innings="9"
+         description="vs University of South Florida"
+         away_name_abbrev="USF"
+         home_name_abbrev="NYY"
+         away_code="usf"
+         away_file_code="t2292"
+         away_team_id="2292"
+         away_team_city="U. of South Florida"
+         away_team_name="Bulls"
+         away_division=""
+         away_league_id="107"
+         away_sport_code="bbc"
+         home_code="nya"
+         home_file_code="nyy"
+         home_team_id="147"
+         home_team_city="NY Yankees"
+         home_team_name="Yankees"
+         home_division="E"
+         home_league_id="103"
+         home_sport_code="mlb"
+         day="FRI"
+         gameday_sw="N"
+         away_games_back="-"
+         home_games_back="-"
+         away_games_back_wildcard=""
+         home_games_back_wildcard="-"
+         venue_w_chan_loc="USFL0481"
+         gameday="2012_03_02_usfbbc_nyamlb_1"
+         away_win="0"
+         away_loss="1"
+         home_win="1"
+         home_loss="0"
+         game_data_directory="/gameday/components/game/mlb/gid_2012_03_02_usfbbc_nyamlb_1"
+         league="BA">
+      <status status="Final" ind="F" reason="" inning="9" top_inning="Y" b="0" s="0" o="3"
+              inning_state=""/>
+      <linescore>
+         <inning away="0" home="1"/> 
+         <inning away="0" home="0"/> 
+         <inning away="0" home="0"/> 
+         <inning away="0" home="2"/> 
+         <inning away="0" home="3"/> 
+         <inning away="0" home="0"/> 
+         <inning away="0" home="5"/> 
+         <inning away="0" home="0"/> 
+         <inning away="0"/> 
+         <r away="0" home="11" diff="11"/> 
+         <h away="4" home="14"/> 
+         <e away="2" home="0"/> 
+      </linescore>
+      <winning_pitcher id="476589" last="Warren" first="Adam" name_display_roster="Warren" number="86"
+                       era="0.00"
+                       wins="1"
+                       losses="0"/>
+      <losing_pitcher id="543684" last="Reed" first="Matthew" name_display_roster="Reed" number="21"
+                      era="0.00"
+                      wins="0"
+                      losses="1"/>
+      <save_pitcher id="" last="" first="" number="" name_display_roster="" era="0" wins="0"
+                    losses="0"
+                    saves="0"
+                    svo="0"/>
+      <links wrapup="" home_preview="" away_preview="" preview="" tv_station=""/>
+      <broadcast>
+        <home>
+            <tv/>
+            <radio/>
+         </home>
+        <away>
+            <tv/>
+            <radio/>
+         </away>
+      </broadcast>
+      <game_media/>
+   </game>
+   <game id="2012/03/02/seamlb-oakmlb-1" venue="Phoenix Municipal Stadium"
+         game_pk="332095"
+         time="3:05"
+         time_zone="ET"
+         ampm="PM"
+         away_time="12:05"
+         away_time_zone="PT"
+         away_ampm="PM"
+         home_time="12:05"
+         home_time_zone="PT"
+         home_ampm="PM"
+         game_type="S"
+         resume_date=""
+         original_date="2012/03/02"
+         time_zone_aw_lg="-5"
+         time_zone_hm_lg="-5"
+         time_aw_lg="3:05"
+         aw_lg_ampm="PM"
+         tz_aw_lg_gen="ET"
+         time_hm_lg="3:05"
+         hm_lg_ampm="PM"
+         tz_hm_lg_gen="ET"
+         venue_id="2524"
+         scheduled_innings="9"
+         description=""
+         away_name_abbrev="SEA"
+         home_name_abbrev="OAK"
+         away_code="sea"
+         away_file_code="sea"
+         away_team_id="136"
+         away_team_city="Seattle"
+         away_team_name="Mariners"
+         away_division="W"
+         away_league_id="103"
+         away_sport_code="mlb"
+         home_code="oak"
+         home_file_code="oak"
+         home_team_id="133"
+         home_team_city="Oakland"
+         home_team_name="Athletics"
+         home_division="W"
+         home_league_id="103"
+         home_sport_code="mlb"
+         day="FRI"
+         gameday_sw="Y"
+         away_games_back="-"
+         home_games_back="-"
+         away_games_back_wildcard="-"
+         home_games_back_wildcard="-"
+         venue_w_chan_loc="USAZ0166"
+         away_league_id_spring="114"
+         away_split_squad="N"
+         home_league_id_spring="114"
+         home_split_squad="N"
+         gameday="2012_03_02_seamlb_oakmlb_1"
+         away_win="1"
+         away_loss="0"
+         home_win="0"
+         home_loss="1"
+         game_data_directory="/gameday/components/game/mlb/gid_2012_03_02_seamlb_oakmlb_1"
+         league="AA">
+      <status status="Final" ind="F" reason="" inning="9" top_inning="N" b="0" s="0" o="3"
+              inning_state=""/>
+      <linescore>
+         <inning away="0" home="1"/> 
+         <inning away="2" home="0"/> 
+         <inning away="0" home="0"/> 
+         <inning away="2" home="0"/> 
+         <inning away="3" home="1"/> 
+         <inning away="0" home="2"/> 
+         <inning away="0" home="1"/> 
+         <inning away="1" home="0"/> 
+         <inning away="0" home="0"/> 
+         <r away="8" home="5" diff="3"/> 
+         <h away="9" home="10"/> 
+         <e away="2" home="1"/> 
+      </linescore>
+      <home_runs>
+         <player id="425904" last="Rodriguez" first="Luis" name_display_roster="Rodriguez, L"
+                 number="1"
+                 hr="1"
+                 std_hr="1"
+                 inning="5"
+                 runners="0"
+                 team_code="sea"/>
+         <player id="503345" last="Chavez" first="Johermyn" name_display_roster="Chavez"
+                 number="70"
+                 hr="1"
+                 std_hr="1"
+                 inning="8"
+                 runners="0"
+                 team_code="sea"/>
+         <player id="519299" last="Sogard" first="Eric" name_display_roster="Sogard" number="28"
+                 hr="1"
+                 std_hr="1"
+                 inning="7"
+                 runners="0"
+                 team_code="oak"/>
+         <player id="451713" last="Peguero" first="Carlos" name_display_roster="Peguero, C"
+                 number="4"
+                 hr="1"
+                 std_hr="1"
+                 inning="4"
+                 runners="1"
+                 team_code="sea"/>
+         <player id="524968" last="Montero" first="Jesus" name_display_roster="Montero"
+                 number="63"
+                 hr="1"
+                 std_hr="1"
+                 inning="5"
+                 runners="1"
+                 team_code="sea"/>
+         <player id="459431" last="Saunders" first="Michael" name_display_roster="Saunders, M"
+                 number="55"
+                 hr="1"
+                 std_hr="1"
+                 inning="2"
+                 runners="1"
+                 team_code="sea"/>
+      </home_runs>
+      <winning_pitcher id="518444" last="Beavan" first="Blake" name_display_roster="Beavan"
+                       number="49"
+                       era="3.86"
+                       wins="1"
+                       losses="0"/>
+      <losing_pitcher id="453232" last="Godfrey" first="Graham" name_display_roster="Godfrey"
+                      number="45"
+                      era="9.00"
+                      wins="0"
+                      losses="1"/>
+      <save_pitcher id="430675" last="Henn" first="Sean" number="39" name_display_roster="Henn"
+                    era="0.00"
+                    wins="0"
+                    losses="0"
+                    saves="1"
+                    svo="0"/>
+      <links wrapup=""
+             home_audio="bam.media.launchPlayer({calendar_event_id:'14-332095-2012-03-02',media_type:'audio'})"
+             away_audio="bam.media.launchPlayer({calendar_event_id:'14-332095-2012-03-02',media_type:'audio'})"
+             home_preview=""
+             away_preview=""
+             preview=""
+             tv_station=""/>
+      <broadcast>
+        <home>
+            <tv/>
+            <radio>MLB.com</radio>
+         </home>
+        <away>
+            <tv/>
+            <radio>710 ESPN</radio>
+         </away>
+      </broadcast>
+      <game_media>
+         <media type="game" calendar_event_id="14-332095-2012-03-02"
+                start="2012-03-02T15:05:00-0500"
+                title="SEA @ OAK"
+                free="ALL"
+                media_state="media_archive"/>
+      </game_media>
+   </game>
+</games>
