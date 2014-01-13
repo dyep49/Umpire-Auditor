@@ -16,3 +16,16 @@ After every game, the MLB Gameday API releases a wide variety of information. I 
 
 -I believe most of these are attainable this week. The biggest challenge I'm facing is seeding the database as the data isn't entirely consistent.
 
+
+
+Milestones: 
+
+By the end of...
+
+Monday: Database seeded with errors. Begin work on fixing the data.
+
+Tuesday: Models are established. Data is cleaned up. Work beings on implement the futures and crunching the stats
+
+Wednesday: Main functionality complete. Work on additional features begun.
+
+Thursday: Additional functionality completed and work on front end started and completed.
