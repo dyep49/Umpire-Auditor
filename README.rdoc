@@ -1,3 +1,5 @@
 Umpire Auditor
 
-Tracks baseball umpire performance
+Tracks MLB umpire performance
+
+umpireauditor.herokuapp.com
