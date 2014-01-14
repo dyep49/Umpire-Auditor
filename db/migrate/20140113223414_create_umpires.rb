@@ -2,6 +2,7 @@ class CreateUmpires < ActiveRecord::Migration
   def change
     create_table :umpires do |t|
       t.string :name
+      t.string :umpire_id
       t.timestamps
     end
   end

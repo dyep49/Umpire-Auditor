@@ -62,6 +62,7 @@ ActiveRecord::Schema.define(:version => 20140113224509) do
 
   create_table "umpires", :force => true do |t|
     t.string   "name"
+    t.string   "umpire_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
