@@ -9,7 +9,7 @@
 require_relative '../dataparser.rb'
 
 
-umpires = DataParser.seed("components/game/mlb/year_2013/month_06/day_06/**/players.xml")
+umpires = DataParser.umpire_seed_helper("components/game/mlb/year_2013/month_06/day_06/**/players.xml")
 
 umpires.each do |umpire|
 	new_ump = Umpire.new
