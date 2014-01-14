@@ -1,0 +1,118 @@
+Game: 
+Home Team
+Away Team
+Month
+Day
+Year
+GID
+
+Team:
+Abbreviation
+City
+League
+Name
+
+
+
+
+
+Pitch:
+Strikezone-Top
+Strikezone-Bottom
+X Location
+Y Location
+Des
+pitch id 
+
+
+
+
+
+Umpire Name
+
+
+
+Many to Many:
+Pitcher - Game
+Team - Game
+Umpire - Game
+
+One to many:
+Game - Pitches
+
+Team:
+has_many pitchers
+has_many games
+belongs_to game
+
+Umpire:
+has_many calls through 
+has_many games
+belongs_to game
+
+Call:
+belongs_to umpire
+belongs_to pitch
+
+pitcher_id
+umpire_id
+call_description
+correct_call
+
+Pitcher:
+Has_many games
+has many pitches
+has many pitches
+belongs to team
+belong to game
+
+
+
+
+User
+has many teams through favorites
+has many pitchers through favorites
+Has many umpires through favorites
+
+Favorite
+Belongs to user 
+user id
+team id
+pitcher id
+umpire id
+
+
+
+Pitcher has many pitches through games
+
+
+User has many, pitchers, team, umpires through favorites
+
+Pitcher, Team, Umpire, Game, User, Favorites,
+
+
+
+
+
+
+
+
+
+
+get_pitching
+
+Class Game
+
+  def get_all_pitches
+    pitches = []
+    pitchers = self.get_pitching.flatten
+    pitchers.each do |pitcher|
+      pitches << get_pitches(pitcher.pid)
+    end
+    pitches.flatten
+  end
+
+  def get_home_plate_umpire
+  	self.get_umpires["home"]
+  end
+end
