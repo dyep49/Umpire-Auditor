@@ -26,6 +26,16 @@ gem 'jquery-rails'
 
 gem 'hpricot'
 
+gem 'devise'
+
+gem 'rspec-rails'
+
+gem 'nokogiri'
+
+gem 'vcr'
+
+gem 'httparty'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
