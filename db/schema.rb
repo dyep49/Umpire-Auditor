@@ -23,8 +23,12 @@ ActiveRecord::Schema.define(:version => 20140114234722) do
   end
 
   create_table "games", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "home_team_id"
+    t.integer  "away_team_id"
+    t.integer  "gid"
+    t.integer  "umpire_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "pitchers", :force => true do |t|
@@ -40,12 +44,17 @@ ActiveRecord::Schema.define(:version => 20140114234722) do
     t.float    "y_location"
     t.float    "sz_top"
     t.float    "sz_bottom"
+    t.string   "description"
+    t.boolean  "correct_call"
+    t.float    "distance_missed", :default => 0.0
     t.integer  "pid"
     t.integer  "sv_id"
     t.integer  "pitcher_id"
     t.integer  "umpire_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "batter_id"
+    t.string   "type"
+    t.datetime "created_at",                       :null => false
+    t.datetime "updated_at",                       :null => false
   end
 
   create_table "teams", :force => true do |t|
