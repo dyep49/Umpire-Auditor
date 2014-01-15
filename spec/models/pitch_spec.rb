@@ -8,11 +8,12 @@ describe Pitch do
   		y_location = 1.1
   		sz_top = 3.65
   		sz_bottom = 1.75
-  		@pitch = Pitch.new({description: description, y_location: y_location, x_location: x_location, sz_top: sz_top, sz_bottom: sz_bottom})
+  		@pitch = Pitch.new(description: description, y_location: y_location, x_location: x_location, sz_top: sz_top, sz_bottom: sz_bottom)
   	end
   	describe "when asked if correct call" do
- 			it "can should take the pitch and" do
+ 			it "should take the pitch and" do
   			@pitch.correct_call?.should == false
+  			@pitch.distance_miss.should == 0.65
   		end
 		end
 	end
@@ -26,7 +27,7 @@ describe Pitch do
   		@pitch = Pitch.new({description: description, y_location: y_location, x_location: x_location, sz_top: sz_top, sz_bottom: sz_bottom})
   	end
 		describe "when asked if correct call" do
-			it "can should take the pitch and" do
+			it "should take the pitch and" do
 				@pitch.correct_call?.should == true
 			end
 		end
@@ -41,7 +42,7 @@ describe Pitch do
   		@pitch = Pitch.new({description: description, y_location: y_location, x_location: x_location, sz_top: sz_top, sz_bottom: sz_bottom})
   	end
 		describe "when asked if correct call" do
-			it "can should take the pitch and" do
+			it "should take the pitch and" do
 				@pitch.correct_call?.should == false
 			end
 		end
@@ -56,7 +57,7 @@ describe Pitch do
   		@pitch = Pitch.new({description: description, y_location: y_location, x_location: x_location, sz_top: sz_top, sz_bottom: sz_bottom})
   	end
 		describe "when asked if correct call" do
-			it "can should take the pitch and" do
+			it "should take the pitch and" do
 				@pitch.correct_call?.should == true
 			end
 		end
