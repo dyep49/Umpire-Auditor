@@ -11,7 +11,7 @@ class CreatePitches < ActiveRecord::Migration
       t.float :distance_missed_y, :default => 0 
       t.float :total_distance_missed, :default => 0
       t.integer :pid
-      t.integer :sv_id
+      t.integer :sv_id, :limit => 8
       t.integer :pitcher_id
       t.integer :umpire_id
       t.integer :batter_id

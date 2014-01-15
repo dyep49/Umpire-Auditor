@@ -46,17 +46,17 @@ ActiveRecord::Schema.define(:version => 20140114234722) do
     t.float    "sz_bottom"
     t.string   "description"
     t.boolean  "correct_call"
-    t.float    "distance_missed_x",     :default => 0.0
-    t.float    "distance_missed_y",     :default => 0.0
-    t.float    "total_distance_missed", :default => 0.0
+    t.float    "distance_missed_x",                  :default => 0.0
+    t.float    "distance_missed_y",                  :default => 0.0
+    t.float    "total_distance_missed",              :default => 0.0
     t.integer  "pid"
-    t.integer  "sv_id"
+    t.integer  "sv_id",                 :limit => 8
     t.integer  "pitcher_id"
     t.integer  "umpire_id"
     t.integer  "batter_id"
     t.string   "type"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
+    t.datetime "created_at",                                          :null => false
+    t.datetime "updated_at",                                          :null => false
   end
 
   create_table "teams", :force => true do |t|

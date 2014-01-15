@@ -9,11 +9,12 @@ describe Pitch do
   		sz_top = 3.65
   		sz_bottom = 1.75
   		@pitch = Pitch.new(description: description, y_location: y_location, x_location: x_location, sz_top: sz_top, sz_bottom: sz_bottom)
+  		@pitch.distance_miss
   	end
   	describe "when asked if correct call" do
  			it "should take the pitch and" do
   			@pitch.correct_call?.should == false
-  			@pitch.distance_miss.should == 0.65
+  			@pitch.distance_missed_y.should == 0.65
   		end
 		end
 	end

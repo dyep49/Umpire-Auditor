@@ -3,8 +3,6 @@ require 'active_support/all'
 
 class DataParser 
 
-attr_accessor :home_abbrev, :away_abbrev
-
 FILE_BASE_PATH = 'components/game/mlb'
 
 # def initialize(options)
@@ -51,14 +49,20 @@ end
 
 
 def self.parse_pitch(pitch)
-	des = pitch["des"].value
-	id = pitch["id"].value
-	px = pitch["px"].value
-	pz = pitch["pz"].value
-	sz_top = pitch["sz_top"].value
-	sz_bot = pitch["sz_bot"].value
-	sv_id = pitch["sv_id"].value
-	pitch_characteristics = [des, id, px, pz, sz_top, sz_bot, sv_id]
+	begin
+		description = pitch["des"].value
+		pid = pitch["id"].value
+		x_location = pitch["px"].value
+		y_location = pitch["pz"].value
+		sz_top = pitch["sz_top"].value
+		sz_bottom = pitch["sz_bot"].value
+		sv_id = pitch["sv_id"].value
+		type = pitch["type"].value
+		pitch_characteristics = [description, pid, x_location, y_location, sz_top, sz_bottom, sv_id, type]
+	rescue 
+		puts "UNABLE TO CREATE PITCH--------------------------------"
+		pitch_characteristics = [false]
+	end
 end
 
 def self.parse_game(gid)
@@ -104,25 +108,6 @@ def self.parse_umpire_file(file)
 	umpire_name = home_plate_umpire["name"]
 	umpire_id = home_plate_umpire["id"]
 	[umpire_name, umpire_id]
-end
-
-def self.umpire_seed_helper(file_search)
-	umpire_array = []
-	files = Dir.glob(file_search)
-	puts files.empty?
-	files.each do |file|
-		umpire_array << DataParser.parse_umpire_file(file)
-	end
-	umpire_array
-end
-
-def self.pull_gids(file_path)
-	gid_array = []
-	files = Dir.glob("#{file_path}**/gamecenter.xml")
-	files.each do |file|
-		gid_array << DataParser.parse_gid(file)
-	end
-	gid_array
 end
 
 
