@@ -12,6 +12,7 @@ umpires.each do |umpire|
 	new_ump.name = umpire[0]
 	new_ump.umpire_id = umpire[1]
 	new_ump.save!
+	puts "created new umpire"
 end
 
 gids = DataParser.pull_gids("components/game/mlb/year_2013/month_06/day_06/")
