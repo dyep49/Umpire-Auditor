@@ -7,6 +7,8 @@ class CreatePitches < ActiveRecord::Migration
       t.float :sz_bottom
       t.integer :pid
       t.integer :sv_id
+      t.integer :pitcher_id
+      t.integer :umpire_id
       t.timestamps
     end
   end

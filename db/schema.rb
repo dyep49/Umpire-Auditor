@@ -11,23 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140113224509) do
-
-  create_table "calls", :force => true do |t|
-    t.integer  "pitcher_id"
-    t.integer  "umpire_id"
-    t.string   "description"
-    t.boolean  "correct_call"
-    t.float    "distance_missed", :default => 0.0
-    t.datetime "created_at",                       :null => false
-    t.datetime "updated_at",                       :null => false
-  end
+ActiveRecord::Schema.define(:version => 20140114234722) do
 
   create_table "favorites", :force => true do |t|
     t.integer  "user_id"
     t.integer  "team_id"
     t.integer  "pitcher_id"
     t.integer  "umpire_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "games", :force => true do |t|
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -47,6 +42,8 @@ ActiveRecord::Schema.define(:version => 20140113224509) do
     t.float    "sz_bottom"
     t.integer  "pid"
     t.integer  "sv_id"
+    t.integer  "pitcher_id"
+    t.integer  "umpire_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
