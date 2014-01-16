@@ -9,11 +9,19 @@ def create_pitches_csv
 		CsvParser.parse_game_pitches(gid)
 	end	
 
-	puts "CSV File Created!"
+	puts "pitches.csv created!"
 
 end
 
 
 def create_umpires_csv
 	umpires = SeedHelper.umpire_seed_helper("components/game/mlb/year_2013/**/**/**/players.xml")
+	puts "umpires.csv created!"
+end
+
+
+def create_teams_csv
+
+
+
 end
