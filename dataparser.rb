@@ -57,11 +57,11 @@ def self.parse_pitch(pitch)
 		sz_top = pitch["sz_top"].value
 		sz_bottom = pitch["sz_bot"].value
 		sv_id = pitch["sv_id"].value
-		type = pitch["type"].value
-		pitch_characteristics = [description, pid, x_location, y_location, sz_top, sz_bottom, sv_id, type]
+		type_id = pitch["type"].value
+		pitch_characteristics = {description: description, pid: pid, x_location: x_location, y_location: y_location, sz_top: sz_top, sz_bottom: sz_bottom, sv_id: sv_id, type_id: type_id, missing_data: false}
 	rescue 
 		puts "UNABLE TO CREATE PITCH--------------------------------"
-		pitch_characteristics = [false]
+		pitch_characteristics = {missing_data: true}
 	end
 end
 
@@ -70,7 +70,7 @@ def self.parse_game(gid)
 	f = File.open("#{path}/game.xml")
 	doc = Nokogiri::XML(f)
 	hash = Hash.from_xml(doc.to_s)
-	umpire_id = DataParser.parse_umpire(gid)[1]
+	mlb_umpire_id = DataParser.parse_umpire(gid)[1]
 	game_hash = {
 	# home_abbrev: hash["game"]["team"].first["abbrev"],
 	home_team_id: hash["game"]["team"].first["id"],
@@ -80,7 +80,7 @@ def self.parse_game(gid)
 	# home_code: hash["game"]["team"].first["code"],
 	# away_abbrev: hash["game"]["team"].last["abbrev"],
 	away_team_id: hash["game"]["team"].last["id"],
-	umpire_id: umpire_id
+	mlb_umpire_id: mlb_umpire_id
 	# away_name_full: hash["game"]["team"].last["name_full"],
 	# away_division_id: hash["game"]["team"].last["division_id"],
 	# away_league_id: hash["game"]["team"].last["league_id"],
@@ -96,8 +96,8 @@ def self.parse_umpire(gid)
 	hash = Hash.from_xml(doc.to_s)
 	home_plate_umpire = hash["game"]["umpires"]["umpire"][0]
 	umpire_name = home_plate_umpire["name"]
-	umpire_id = home_plate_umpire["id"]
-	[umpire_name, umpire_id]
+	mlb_umpire_id = home_plate_umpire["id"]
+	[umpire_name, mlb_umpire_id]
 end
 
 def self.parse_umpire_file(file)
@@ -106,8 +106,8 @@ def self.parse_umpire_file(file)
 	hash = Hash.from_xml(doc.to_s)
 	home_plate_umpire = hash["game"]["umpires"]["umpire"][0]
 	umpire_name = home_plate_umpire["name"]
-	umpire_id = home_plate_umpire["id"]
-	[umpire_name, umpire_id]
+	mlb_umpire_id = home_plate_umpire["id"]
+	[umpire_name, mlb_umpire_id]
 end
 
 

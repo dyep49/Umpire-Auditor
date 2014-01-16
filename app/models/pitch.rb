@@ -1,8 +1,16 @@
 class Pitch < ActiveRecord::Base
 	belongs_to :game
 
-	attr_accessible :total_distance_missed, :distance_missed_x, :distance_missed_y, :description, :x_location, :y_location, :sz_top, :sz_bottom, :type
+	attr_accessible :gid, :total_distance_missed, :missing_data, :distance_missed_x, :distance_missed_y, :description, :x_location, :y_location, :sz_top, :sz_bottom, :type_id, :correct_call, :sv_id, :mlb_umpire_id, :batter_id, :pitcher_id, :pid
 
+
+	def self.worst_call(pitches)
+		pitches.sort_by(&:total_distance_missed)[-1]
+	end
+
+	def umpire
+		Umpire.find_by_mlb_umpire_id(self.mlb_umpire_id)
+	end
 
 	#Returns called strike if pitch in strike zone, even if that's not actual call by umpire
 	def strike?

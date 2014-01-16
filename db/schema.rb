@@ -26,9 +26,10 @@ ActiveRecord::Schema.define(:version => 20140114234722) do
     t.integer  "home_team_id"
     t.integer  "away_team_id"
     t.string   "gid"
+    t.integer  "mlb_umpire_id"
     t.integer  "umpire_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "pitchers", :force => true do |t|
@@ -52,9 +53,12 @@ ActiveRecord::Schema.define(:version => 20140114234722) do
     t.integer  "pid"
     t.integer  "sv_id",                 :limit => 8
     t.integer  "pitcher_id"
-    t.integer  "umpire_id"
+    t.integer  "mlb_umpire_id"
     t.integer  "batter_id"
-    t.string   "type"
+    t.integer  "gid"
+    t.string   "type_id"
+    t.boolean  "missing_data"
+    t.integer  "game_id"
     t.datetime "created_at",                                          :null => false
     t.datetime "updated_at",                                          :null => false
   end
@@ -70,9 +74,9 @@ ActiveRecord::Schema.define(:version => 20140114234722) do
 
   create_table "umpires", :force => true do |t|
     t.string   "name"
-    t.string   "umpire_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "mlb_umpire_id"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "users", :force => true do |t|

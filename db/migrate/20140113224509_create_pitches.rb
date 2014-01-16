@@ -13,9 +13,12 @@ class CreatePitches < ActiveRecord::Migration
       t.integer :pid
       t.integer :sv_id, :limit => 8
       t.integer :pitcher_id
-      t.integer :umpire_id
+      t.integer :mlb_umpire_id
       t.integer :batter_id
-      t.string :type
+      t.integer :gid
+      t.string :type_id
+      t.boolean :missing_data
+      t.integer :game_id
       t.timestamps
     end
   end
