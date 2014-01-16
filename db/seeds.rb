@@ -9,23 +9,36 @@ require_relative '../seed_helper.rb'
 
 #Creates umpires
 
-umpires = SeedHelper.umpire_seed_helper("components/game/mlb/year_2013/month_06/day_06/**/players.xml")
+#For all of 2013 uncomment...
+umpires = SeedHelper.umpire_seed_helper("components/game/mlb/year_2013/**/**/**/players.xml")
+
+
+# umpires = SeedHelper.umpire_seed_helper("components/game/mlb/year_2013/month_06/day_06/**/players.xml")
 
 umpires.each do |umpire|
+	begin
 	new_ump = Umpire.new
 	new_ump.name = umpire[0]
 	new_ump.mlb_umpire_id = umpire[1]
 	new_ump.save!
 	puts "created new umpire"
+	rescue
+		puts "there's gonna be duplicates, obviously..."
+	end
 end
 
 #Creates pitches for each individual game
 
-gids = SeedHelper.pull_gids("components/game/mlb/year_2013/month_06/day_06/")
+# gids = SeedHelper.pull_gids("components/game/mlb/year_2013/month_06/day_06/")
+
+#For all of 2013 uncomment...
+
+gids = SeedHelper.pull_gids("components/game/mlb/year_2013/")
 
 seeded_pitches = []
 pitch_array =[]
 
+n=0
 
 gids.each do |gid|
 	pitch_umpire = DataParser.parse_umpire(gid)[1] 
@@ -51,6 +64,8 @@ gids.each do |gid|
 			end
 		end
 		new_pitch.save!
+		n+=1
+		puts n
 		pitch_array << new_pitch
 		puts "new pitch created"
 	end
@@ -96,6 +111,20 @@ seeded_games.each do |game|
 	puts "game added to umpire"
 end
 
+
+# umpires = SeedHelper.umpire_seed_helper("components/game/mlb/year_2013/month_06/day_06/**/players.xml")
+
+# umpires.each do |umpire|
+# 	begin
+# 		new_ump = Umpire.new
+# 		new_ump.name = umpire[0]
+# 		new_ump.mlb_umpire_id = umpire[1]
+# 		new_ump.save!
+# 		puts "THIS SHOULDN'T HAVE HAPPENED"
+# 	rescue 
+# 		puts "Duplicate Umpire"
+# 	end
+# end
 
 
 

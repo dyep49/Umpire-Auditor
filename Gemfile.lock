@@ -53,6 +53,8 @@ GEM
     erubis (2.7.0)
     execjs (2.0.2)
     gameday_api (0.5.3)
+    gruff (0.5.1)
+      rmagick
     hike (1.2.3)
     hpricot (0.8.6)
     httparty (0.12.0)
@@ -110,6 +112,7 @@ GEM
     rdoc (3.12.2)
       json (~> 1.4)
     ref (1.0.5)
+    rmagick (2.13.2)
     rspec-core (2.14.7)
     rspec-expectations (2.14.4)
       diff-lcs (>= 1.1.3, < 2.0)
@@ -162,6 +165,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
   gameday_api
+  gruff
   hpricot
   httparty
   jquery-rails

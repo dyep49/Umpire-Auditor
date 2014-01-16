@@ -41,26 +41,24 @@ ActiveRecord::Schema.define(:version => 20140114234722) do
   end
 
   create_table "pitches", :force => true do |t|
-    t.float    "x_location"
-    t.float    "y_location"
-    t.float    "sz_top"
-    t.float    "sz_bottom"
-    t.string   "description"
-    t.boolean  "correct_call"
-    t.float    "distance_missed_x",                  :default => 0.0
-    t.float    "distance_missed_y",                  :default => 0.0
-    t.float    "total_distance_missed",              :default => 0.0
-    t.integer  "pid"
-    t.integer  "sv_id",                 :limit => 8
-    t.integer  "pitcher_id"
-    t.integer  "mlb_umpire_id"
-    t.integer  "batter_id"
-    t.integer  "gid"
-    t.string   "type_id"
-    t.boolean  "missing_data"
-    t.integer  "game_id"
-    t.datetime "created_at",                                          :null => false
-    t.datetime "updated_at",                                          :null => false
+    t.string  "gid"
+    t.string  "description"
+    t.integer "pid"
+    t.float   "x_location"
+    t.float   "y_location"
+    t.float   "sz_top"
+    t.float   "sz_bottom"
+    t.string  "sv_id"
+    t.string  "type_id"
+    t.boolean "missing_data"
+    t.boolean "correct_call"
+    t.float   "distance_missed_x",     :default => 0.0
+    t.float   "distance_missed_y",     :default => 0.0
+    t.float   "total_distance_missed", :default => 0.0
+    t.integer "pitcher_id"
+    t.integer "mlb_umpire_id"
+    t.integer "batter_id"
+    t.integer "game_id"
   end
 
   create_table "teams", :force => true do |t|
@@ -78,6 +76,8 @@ ActiveRecord::Schema.define(:version => 20140114234722) do
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
   end
+
+  add_index "umpires", ["mlb_umpire_id"], :name => "my_index", :unique => true
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false

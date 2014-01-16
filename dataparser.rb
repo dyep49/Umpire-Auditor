@@ -40,9 +40,12 @@ def self.parse_inning_pitches(file_path)
 	f = File.open(file_path)
 	doc = Nokogiri::XML(f)
 	pitches = []
+	inning_number = file_path[-6..-1].scan(/\d+/)[0].to_i
 	parsed_pitches = doc.css('pitch')
 	parsed_pitches.each do |pitch|
-		pitches << DataParser.parse_pitch(pitch.attributes)
+		pitch_info = DataParser.parse_pitch(pitch.attributes)
+		# pitch_info[:inning_number] = inning_number if pitch_info[:missing_data] == false
+		pitches << pitch_info
 	end
 	pitches
 end

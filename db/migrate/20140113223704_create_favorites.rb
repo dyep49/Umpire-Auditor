@@ -5,6 +5,7 @@ class CreateFavorites < ActiveRecord::Migration
     	t.integer :team_id
     	t.integer :pitcher_id
     	t.integer :umpire_id
+    	t.integer :user_id
       t.timestamps
     end
   end
