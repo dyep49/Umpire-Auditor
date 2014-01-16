@@ -4,14 +4,21 @@ require_relative 'dataparser.rb'
 class SeedHelper
 
 def self.umpire_seed_helper(file_search)
-	umpire_array = []
+	umpire_id_array = []
 	files = Dir.glob(file_search)
-	puts files.empty?
 	files.each do |file|
-		umpire_array << DataParser.parse_umpire_file(file)
+		umpire_info = DataParser.parse_umpire_file(file, umpire_id_array)
+		unless umpire_id_array.include?(umpire_info[1])
+			CSV.open("umpires.csv", "a") do |csv|
+				csv << umpire_info
+				umpire_id_array << umpire_info[1]
+			end
+		end
 	end
-	umpire_array
 end
+
+
+
 
 def self.pull_gids(file_path)
 	gid_array = []

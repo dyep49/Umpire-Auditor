@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140114234722) do
+ActiveRecord::Schema.define(:version => 20140116185832) do
 
   create_table "favorites", :force => true do |t|
     t.integer  "user_id"
@@ -71,10 +71,8 @@ ActiveRecord::Schema.define(:version => 20140114234722) do
   end
 
   create_table "umpires", :force => true do |t|
-    t.string   "name"
-    t.integer  "mlb_umpire_id"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.string  "name"
+    t.integer "mlb_umpire_id"
   end
 
   add_index "umpires", ["mlb_umpire_id"], :name => "my_index", :unique => true

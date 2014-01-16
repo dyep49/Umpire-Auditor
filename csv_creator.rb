@@ -14,10 +14,6 @@ def create_pitches_csv
 end
 
 
-def create_games_csv
-
-gids = SeedHelper.pull_gids("components/game/mlb/year_2013/")
-
-
-
+def create_umpires_csv
+	umpires = SeedHelper.umpire_seed_helper("components/game/mlb/year_2013/**/**/**/players.xml")
 end

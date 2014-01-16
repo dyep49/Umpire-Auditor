@@ -100,10 +100,11 @@ def self.parse_umpire(gid)
 	home_plate_umpire = hash["game"]["umpires"]["umpire"][0]
 	umpire_name = home_plate_umpire["name"]
 	mlb_umpire_id = home_plate_umpire["id"]
+
 	[umpire_name, mlb_umpire_id]
 end
 
-def self.parse_umpire_file(file)
+def self.parse_umpire_file(file, umpire_array)
 	f = File.open(file)
 	doc = Nokogiri::XML(f)
 	hash = Hash.from_xml(doc.to_s)
