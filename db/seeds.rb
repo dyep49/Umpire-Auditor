@@ -2,6 +2,7 @@
 require_relative '../dataparser.rb'
 require_relative '../seed_helper.rb'
 
+#heroku pgbackups:restore HEROKU_POSTGRESQL_CHARCOAL_URL 'https://dl.dropboxusercontent.com/s/w8bwvm5ci0dx6f2/baseball_project_development.dump?dl=1&token_hash=AAHOvb_qusLZPmDh5LVTtJ4MjE9T_0zBE8cRBldJCmc1aQ'
 
 
 #SEEDS DATABASE WITH ALL RELEVANT DATA FROM 6/6/2013

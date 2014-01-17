@@ -50,4 +50,8 @@ class Umpire < ActiveRecord::Base
   	[correct_calls, incorrect_calls, total_calls]
   end
 
+  def games
+    Game.where(mlb_umpire_id: self.mlb_umpire_id)
+  end
+
 end
