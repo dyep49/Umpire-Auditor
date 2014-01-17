@@ -7,7 +7,7 @@ class Umpire < ActiveRecord::Base
   def self.sort_by_performance(umpires)
   	umpire_hash = {}
   	umpires.each do |umpire|
-  		correct_percent = Umpire.evaluate_umpire(umpire)
+  		correct_percent = umpire.evaluate
   		umpire_hash[umpire.id] = correct_percent unless correct_percent == nil
   	end
   	umpire_info_array = umpire_hash.sort_by{|k,v| v[3]}.reverse
@@ -24,9 +24,9 @@ class Umpire < ActiveRecord::Base
   	# sorted_umpires
   end
 
-  def self.evaluate_umpire(umpire)
+  def evaluate
   	call_array = []
-  	umpire.games.each do |game|
+  	self.games.each do |game|
   		call_array << Umpire.called_pitches(game) unless game.pitches.empty?
   	end
   	call_array.flatten!
