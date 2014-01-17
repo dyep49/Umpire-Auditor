@@ -3,6 +3,9 @@ class Pitch < ActiveRecord::Base
 
 	attr_accessible :gid, :total_distance_missed, :missing_data, :distance_missed_x, :distance_missed_y, :description, :x_location, :y_location, :sz_top, :sz_bottom, :type_id, :correct_call, :sv_id, :mlb_umpire_id, :batter_id, :pitcher_id, :pid
 
+	def game
+		Game.find_by_gid(self.gid)
+	end
 
 	def self.worst_call(pitches)
 		pitches.sort_by(&:total_distance_missed)[-1]

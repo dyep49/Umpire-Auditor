@@ -1,4 +1,7 @@
+
+<h2><%=@date.strftime('%b %d %Y')%></h2>
 <h1>The Worst Call of the Day</h1>
 <h2>Goes To</h2>
 <h1><%=@umpire.name%></h1>
-<p>With a 2-1 count in the bottom of the eighth, <%=@umpire.name%> called a strike on a pitch that was out of the strike zone by <%=@worst_call.total_distance_missed%> feet</h1>
+<h2><%=@game.home_team.full_name%> vs. <%=@game.away_team.full_name%></h2>
+<p>With a 2-1 count in the bottom of the eighth, <%=@umpire.name%> called a strike on a pitch that missed the strike zone by <%=@worst_call.total_distance_missed*12%> inches</h1>

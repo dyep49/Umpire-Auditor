@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140116202433) do
+ActiveRecord::Schema.define(:version => 20140117002915) do
 
   create_table "favorites", :force => true do |t|
     t.integer  "user_id"
@@ -40,6 +40,7 @@ ActiveRecord::Schema.define(:version => 20140116202433) do
 
   create_table "pitches", :force => true do |t|
     t.string  "gid"
+    t.string  "date_string"
     t.string  "description"
     t.integer "pid"
     t.float   "x_location"
@@ -48,11 +49,11 @@ ActiveRecord::Schema.define(:version => 20140116202433) do
     t.float   "sz_bottom"
     t.string  "sv_id"
     t.string  "type_id"
-    t.boolean "missing_data"
     t.boolean "correct_call"
     t.float   "distance_missed_x",     :default => 0.0
     t.float   "distance_missed_y",     :default => 0.0
     t.float   "total_distance_missed", :default => 0.0
+    t.boolean "missing_data"
     t.integer "pitcher_id"
     t.integer "mlb_umpire_id"
     t.integer "batter_id"

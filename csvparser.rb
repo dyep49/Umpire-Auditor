@@ -2,6 +2,8 @@ require 'nokogiri'
 require 'open-uri'
 require 'csv'
 
+require_relative 'call_calculator.rb'
+
 class CsvParser
 
 FILE_BASE_PATH = 'components/game/mlb'
@@ -50,23 +52,54 @@ def self.parse_pitch(pitch, gid)
 		
 		description = pitch["des"].value
 		pid = pitch["id"].value
-		x_location = pitch["px"].value
-		y_location = pitch["pz"].value
-		sz_top = pitch["sz_top"].value
-		sz_bottom = pitch["sz_bot"].value
+		x_location = pitch["px"].value.to_f
+		y_location = pitch["pz"].value.to_f
+		sz_top = pitch["sz_top"].value.to_f
+		sz_bottom = pitch["sz_bot"].value.to_f
 		sv_id = pitch["sv_id"].value
 		type_id = pitch["type"].value
+		date_string = CsvParser.date_from_gid(gid)
+		pitch_attributes = {
+			description: description, 
+			x_location: x_location, 
+			y_location: y_location, 
+			sz_top: sz_top, 
+			sz_bottom: sz_bottom, 
+			type_id: type_id
+		}
+		correct_call = CallCalculator.correct_call?(pitch_attributes)
+		if 	description == "Called Strike"
+			distance_missed = CallCalculator.distance_miss(pitch_attributes)
+			distance_missed_x = distance_missed[0]  
+			distance_missed_y = distance_missed[1]  
+			total_distance_missed = distance_missed[2]
+		else
+			distance_missed_x = 0
+			distance_missed_y = 0
+			total_distance_missed = 0
+		end
 		CSV.open("pitches.csv", "a") do |csv|
-		 csv << [gid, description, pid, x_location, y_location, sz_top, sz_bottom, sv_id, type_id, false]
+		 csv << [gid, date_string, description, pid, x_location, y_location, sz_top, sz_bottom, sv_id, type_id, correct_call, distance_missed_x, distance_missed_y, total_distance_missed, false]
 		end
 		puts "Pitch created"
 	rescue 
 		puts "UNABLE TO CREATE PITCH--------------------------------"
+		 date_string = CsvParser.date_from_gid(gid)
 		 CSV.open("pitches.csv", "a") do |csv|
-		 	csv << [gid, nil, nil, nil, nil, nil, nil, nil, nil, true]
+		 	csv << [gid, date_string, nil, nil, nil, nil, nil, nil, nil, nil, nil, 0, 0, 0, true]
 		 end
 	end
 end
+
+	def self.date_from_gid(gid)
+		year = gid[0..3]
+		month = gid[5..6]
+		day = gid[8..9]
+		day + '-' + month + '-' + year
+	end
+
+
+
 
 
 #--------------------------------------------------------------------------------
