@@ -12,44 +12,43 @@ Becuase the data released is so extensive, it was not practical to hit the MLB A
 To ensure faster response time, some resource intensive calls were generated in a seed task, run daily, and stored in a csv file.
 
 
-<!-- language: ruby -->
-`def strike?
+```
+def strike?
     if self.width_strike? && self.height_strike?
         "Called Strike"
     else
-        Ball"
+        "Ball"
     end
+end
+
+def correct_call?
+    self.strike? == self.description
+end
+
+def width_strike?
+    half_plate_width = (17.5/12)/2
+    self.x_location.abs < half_plate_width 
+end
+
+def height_strike?
+    (self.y_location < self.sz_top) && (self.y_location > self.sz_bottom)
+end
+
+def distance_miss
+    half_plate_width = (17.5/12)/2
+    if self.y_location > self.sz_top
+        self.distance_missed_y = (self.y_location - self.sz_top).round(2)
+    elsif self.y_location < self.sz_bottom 
+        self.distance_missed_y = (self.sz_bottom - self.y_location).round(2)
+        else
+        self.distance_missed_y = 0
     end
 
-        def correct_call?
-                self.strike? == self.description
-        end
-
-        def width_strike?
-                half_plate_width = (17.5/12)/2
-                self.x_location.abs < half_plate_width 
-        end
-
-        def height_strike?
-                (self.y_location < self.sz_top) && (self.y_location > self.sz_bottom)
-        end
-
-        def distance_miss
-                half_plate_width = (17.5/12)/2
-
-                if self.y_location > self.sz_top
-                        self.distance_missed_y = (self.y_location - self.sz_top).round(2)
-                elsif self.y_location < self.sz_bottom 
-                        self.distance_missed_y = (self.sz_bottom - self.y_location).round(2)
-                else
-                        self.distance_missed_y = 0
-                end
-
-                if self.x_location.abs > half_plate_width
-                        self.distance_missed_x = (self.x_location.abs - half_plate_width).round(2)
-                else
-                        self.distance_missed_x = 0
-                end
-
-                self.total_distance_missed = self.distance_missed_y + self.distance_missed_x
-        end`
+    if self.x_location.abs > half_plate_width
+        self.distance_missed_x = (self.x_location.abs - half_plate_width).round(2)
+    else
+        self.distance_missed_x = 0
+    end
+    self.total_distance_missed = self.distance_missed_y + self.distance_missed_x
+ end
+ ```
