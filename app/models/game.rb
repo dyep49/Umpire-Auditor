@@ -32,4 +32,11 @@ def self.most_recent
 	"#{day}-#{month}-#{year}"
 end
 
+def date
+	year = self.gid[0..3]
+	month = self.gid[5..6]
+	day = self.gid[8..9]
+	"#{day}-#{month}-#{year}"
+end
+
 end

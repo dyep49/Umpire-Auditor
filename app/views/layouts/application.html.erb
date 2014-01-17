@@ -7,12 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="container">
 <nav>
 	<%= link_to "Home", pitches_path %>
 	<%= link_to "Umpires", umpires_path %>
 	<%= link_to "Favorites", favorites_path %>
 	<%= link_to "Games", games_path %>
 </nav>
+
 
 <div id ="user_nav">
 	<% if user_signed_in? %>
@@ -28,18 +30,13 @@
 <% if alert %>
   <p class="alert alert-error"><%= alert %></p>
 <% end %>
+</div>
 
 <div class="container">
+<h1>Umpire Auditor</h1>
 <%= yield %>
 </div>
 
 </body>
 </html>
 
-
-<% form_tag umpires_path, :method => 'get' do %>
-	<p>
-		<%= text_field_tag :search, params[:search] %>
-		<%= submit_tag "Search", name: nil%>
-	</p>
-<% end %>

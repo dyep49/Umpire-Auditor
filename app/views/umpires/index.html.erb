@@ -1,15 +1,22 @@
+
+
 <h1>2013 Umpire Rankings</h1>
-<table>
+
+<div class="container">
+<table class="table table-striped table-hover">
 	<thead>
+		<th>Rank</th>
 		<th>Umpire</th>
-		<th>Correct Calls (%)</th>
-		<th>Total Correct Calls</th>
-		<th>Total Incorrect Calls</th>
-		<th>Total Calls</th>
+		<th><%= link_to "Correct Calls (%)", :sort=> "Correct Calls (%)" %></th>
+		<th><%= link_to "Total Correct Calls", :sort=>"Total Correct Calls"%></th>
+		<th><%= link_to "Total Incorrect Calls", :sort=>"Total Incorrect Calls"%></th>
+		<th><%= link_to "Total Calls", :sort=>"Total Calls"%></th>
 	</thead>
 	<tbody>
+		<% i = 1 %>
 		<% @umpires.each do |umpire| %>
 			<tr>
+				<td><%=i%><%i+=1%></td>
 				<td><%=link_to umpire.name, umpire_path(umpire)%></td>
 				<td><%= @umpire_hash[umpire.name][3].round(2) %></td>
 				<td><%= @umpire_hash[umpire.name][0] %></td>
@@ -19,3 +26,4 @@
 		<% end %>
 	</tbody>
 </table>
+</div>

@@ -7,7 +7,7 @@ task :test => :environment do
 			csv << [umpire[0].name, umpire[1][0], umpire[1][1], umpire[1][2], umpire[1][3]]
 		end
 		rescue
-			put "whatever'"
+			put "unsuccessful"
 		end
 	end
 end
