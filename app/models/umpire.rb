@@ -25,29 +25,26 @@ class Umpire < ActiveRecord::Base
   end
 
   def evaluate
-  	call_array = []
+  	correct_calls = []
+    incorrect_calls = []
+    total_calls = []
   	self.games.each do |game|
-  		call_array << Umpire.called_pitches(game) unless game.pitches.empty?
+  		calls = Umpire.called_pitches(game) unless game.pitches.empty?
+      correct_calls << calls[0]
+      incorrect_calls << calls[1]
+      total_calls << calls[2]
   	end
-  	call_array.flatten!
-  	begin
-  		correct_calls = call_array[0]
-  		incorrect_calls = call_array[1]
-  		total_calls = call_array[2]
-  		decimal_correct = correct_calls/(total_calls.to_f)
-  		percent_correct = (decimal_correct * 100).round(2)
-  		[correct_calls, incorrect_calls, total_calls, percent_correct]
-
-  	rescue
-  		puts "Not a number"
-  	end
+    [correct_calls, incorrect_calls, total_calls].map do |call_array|
+      call_array.inject(:+)
+    end
   end
 
   def self.called_pitches(game)
   	correct_calls = game.pitches.where(correct_call: true).count
   	incorrect_calls = game.pitches.where(correct_call: false).count
   	total_calls = correct_calls + incorrect_calls
-  	[correct_calls, incorrect_calls, total_calls]
+    percent_correct = (correct_calls / total_calls.to_f) * 100
+  	[correct_calls, incorrect_calls, total_calls, percent_correct]
   end
 
   def games

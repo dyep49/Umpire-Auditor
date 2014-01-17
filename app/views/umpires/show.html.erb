@@ -1,0 +1,25 @@
+<h1><%=@umpire.name%></h1>
+
+<table>
+	<thead>
+		<tr>
+			<th>Date</th>
+			<th>Game</th>
+			<th>Percent Calls Correct<th>
+			<th>Correct Calls</th>
+			<th>Incorrect Calls</th>
+			<th>Total Calls</th>
+		<tr>
+	</thead>
+	<% @umpire.games.each do |game| %>
+		<%calls = Umpire.called_pitches(game)%>
+	<tr>
+		<td></td>
+		<td><%=game.home_team.abbreviation%> vs <%=game.away_team.abbreviation%></td>
+		<td><%=calls[3].round(2)%></td>
+		<td><%=calls[0]%></td>
+		<td><%=calls[1]%></td>
+		<td><%=calls[2]%></td>
+	<%end%>
+	</tr>
+</table>
