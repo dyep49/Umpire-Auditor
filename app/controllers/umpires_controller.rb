@@ -12,7 +12,7 @@ end
 
 def show
 	@umpire = Umpire.find(params[:id])
-	binding.pry
+	# binding.pry
 end
 
 
