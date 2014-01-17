@@ -1,35 +1,11 @@
-## Umpire Auditor Application
-
--Tracking MLB umpire performance
-
-Project Plan
-
-Scope
-
-After every game, the MLB Gameday API releases a wide variety of information. I plan to build an application that utilizes this API. I intend to iterate through every pitch and calculate whether the umpire made the right call. I intend to have the following functionality:
-
--Return the worst call of the night, selected by the called strike that was furthest out of the strike zone
-
--Rank the umpires based on percentage of missed calls
-
--Rank catchers based on the percentage of missed calls they get
-
--Display missed call stats for all players and teams
-
--Allow a user to favorite players, teams, and umpires to more easily track them
-
--I believe most of these are attainable this week. The biggest challenge I'm facing is seeding the database as the data isn't entirely consistent.
+#Umpire Auditor
 
 
+After every game, the MLB releases an incredible amount of data. In fact, every single pitch brings back nearly 30 different characteristics. Umpire Auditor uses this data to track (or audit) the performance of MLB umpires, primarily by calculating the rate at which these umpires correctly calculate balls and strikes.
 
-Milestones: 
+At it's most basic, the application returns the worst call of the night, every night, chosen as such for being the ball, called strike, furtherst from the strike zone. In addition, umpire performance statistics exist for every game and cumulatively over the entire season.
 
-By the end of...
+This application made extensive use of the 'gameday_api' gem and 'nokogiri' to download (gameday_api gem) and parse ('nokogiri') the xml provided by the MLB's API. 
 
-Monday: Database seeded with errors. Begin work on fixing the data.
+Becuase the data released is so extensive, it was not practical to hit the MLB API everytime information was needed. As a result, the necessary files were downloaded by the game_day_api gem, parsed, and added to a Postgres database. Because there were so many files (500,000+ per season), it was necessary to parse the xml into a Ruby hash and convert that to csv. From there, the data was inserted into the database using Postgres. There were about one million rows inserted per season. 
 
-Tuesday: Models are established. Data is cleaned up. Work beings on implement the futures and crunching the stats
-
-Wednesday: Main functionality complete. Work on additional features begun.
-
-Thursday: Additional functionality completed and work on front end started and completed.
