@@ -28,7 +28,18 @@
 <% if alert %>
   <p class="alert alert-error"><%= alert %></p>
 <% end %>
+
+<div class="container">
 <%= yield %>
+</div>
 
 </body>
 </html>
+
+
+<% form_tag umpires_path, :method => 'get' do %>
+	<p>
+		<%= text_field_tag :search, params[:search] %>
+		<%= submit_tag "Search", name: nil%>
+	</p>
+<% end %>
