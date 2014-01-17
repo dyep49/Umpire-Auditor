@@ -53,6 +53,7 @@ GEM
     erubis (2.7.0)
     execjs (2.0.2)
     gameday_api (0.5.3)
+    googlecharts (1.6.8)
     hike (1.2.3)
     hpricot (0.8.6)
     httparty (0.12.0)
@@ -162,6 +163,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
   gameday_api
+  googlecharts
   hpricot
   httparty
   jquery-rails

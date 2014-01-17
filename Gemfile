@@ -11,6 +11,8 @@ gem 'gameday_api'
 
 gem 'webmock'
 
+gem 'googlecharts'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
