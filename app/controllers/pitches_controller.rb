@@ -11,7 +11,7 @@ def index
 	@worst_call = Pitch.worst_call(pitches)
 	@umpire = @worst_call.game.umpire[0]
 	@game = Game.where(gid: @worst_call.gid)[0]
-	binding.pry
+	# binding.pry
 end
 
 
