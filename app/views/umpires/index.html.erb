@@ -7,10 +7,10 @@
 	<thead>
 		<th>Rank</th>
 		<th>Umpire</th>
-		<th><%= link_to "Correct Calls (%)", :sort=> "Correct Calls (%)" %></th>
-		<th><%= link_to "Total Correct Calls", :sort=>"total_correct_calls"%></th>
-		<th><%= link_to "Total Incorrect Calls", :sort=>"total_incorrect_calls"%></th>
-		<th><%= link_to "Total Calls", :sort =>"total_calls"%></th>
+		<th><%= link_to "Correct Calls (%)", :sort=> "correct_calls", order: @correct_calls%></th>
+		<th><%= link_to "Total Correct Calls", :sort=>"total_correct_calls", order: @total_correct_calls%></th>
+		<th><%= link_to "Total Incorrect Calls", :sort=>"total_incorrect_calls", order: @total_incorrect_calls%></th>
+		<th><%= link_to "Total Calls", :sort =>"total_calls",  :order => @total_calls %></th>
 	</thead>
 	<tbody>
 		<% i = 1 %>
