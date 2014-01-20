@@ -21,31 +21,12 @@ p {
 	text-align: center;
 }
 
-nav {
-	text-align: left;
-	font-size: 2em;
-	/*margin: .5em 2em 0em 0em;*/
 
+
+body {
+	padding-top: 70px;
 }
 
-#user_nav {
-	margin-left: 6em;
-}
-
-
-.large {
-	font-size: 2em;
-}
-
-li {
-	display: inline;
-	border-right: .1em solid black;
-	/*margin: 0em .5em 0em .5em;*/
-	padding-right: .25em;
-	margin-left: .1em;
-	padding-left: .25em;
-}
-
-ul {
-	list-style-type: none;
+.navbar-brand {
+	font-weight: bold;
 }

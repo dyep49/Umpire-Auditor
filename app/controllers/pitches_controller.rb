@@ -4,7 +4,7 @@ class PitchesController < ApplicationController
 
 
 def index
-	# binding.pry
+	@pitches_status = "active"
 	most_recent_date = Game.most_recent
 	@date = Date.parse(most_recent_date)
 	pitches = Pitch.where(date_string: most_recent_date)
@@ -15,6 +15,7 @@ def index
 end
 
 def show
+	@pitches_status = "active"
 	# binding.pry
 	begin
 		date_string = "#{params[:day]}-#{params[:month]}-#{params[:year]}"

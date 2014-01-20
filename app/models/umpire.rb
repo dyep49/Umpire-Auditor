@@ -57,7 +57,7 @@ class Umpire < ActiveRecord::Base
 
   def self.read_umpire_csv
     umpire_hash = {}
-    CSV.foreach(File.expand_path('umpire_rank.csv')) do |csv_obj|
+    CSV.foreach("#{Rails.root}/seed_csvs/umpire_rank.csv") do |csv_obj|
       percent_correct = (csv_obj[1].to_i/csv_obj[3].to_f) * 100
       umpire_hash[csv_obj[0]] = [csv_obj[1].to_i, csv_obj[2].to_i, csv_obj[3].to_i, percent_correct]
     end

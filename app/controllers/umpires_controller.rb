@@ -1,6 +1,8 @@
 class UmpiresController < ApplicationController
 
 def index
+	@umpires_status = "active"
+
 	@total_calls = 'asc'
 	@total_incorrect_calls = 'asc'
 	@total_correct_calls = 'asc'
@@ -53,6 +55,8 @@ def index
 end
 
 def show
+	@umpires_status = "active"
+	
 	@umpire = Umpire.find(params[:id])
 end
 
