@@ -27,18 +27,22 @@
 		<li><%= link_to "Favorites", favorites_path %></li>
 		<li><%= link_to "Games", games_path %></li>
 	</ul>
+	<ul class="nav navbar-nav navbar-right">
+		<% if user_signed_in? %>
+			<li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
+		<% else %>
+			<li><%= link_to "Sign up", new_user_registration_path %></li>
+			<li><%= link_to "Sign in", new_user_session_path %></li>
+		<% end %>
+	</ul>
 </div>
 
 </nav>
 
-
-<div id ="user_nav btn-group">
-	<% if user_signed_in? %>
-		Signed in as <%= current_user.email %>. Not you?
-		<%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
-	<% else %>
-		<%= link_to "Sign up", new_user_registration_path %> or <%= link_to "sign in", new_user_session_path %>.
-	<% end %>
+<% if user_signed_in? %>
+Signed in as <%= current_user.email %>. <%= link_to "Not you?", destroy_user_session_path, :method => :delete %>
+<% end %>
+	
 
 <% if notice %>
   <p class="alert alert-notice"><%= notice %></p>
@@ -46,7 +50,6 @@
 <% if alert %>
   <p class="alert alert-error"><%= alert %></p>
 <% end %>
-</div>
 </div>
 
 <div class="container">
