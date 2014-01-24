@@ -15,7 +15,6 @@ def index
 end
 
 def show
-	binding.pry
 	@pitches_status = "active"
 	# binding.pry
 	begin
