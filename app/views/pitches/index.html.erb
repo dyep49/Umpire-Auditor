@@ -1,9 +1,13 @@
+<div class = 'white'>
+<div class = "center">
 <%=form_tag("/pitches/show", method: "get") do %>
-	<%= label_tag(:date_search, "Search by date:") %>
-	<div class="bfh-datepicker" data-max="today" data-name="date" data-value="full_date">
+	<%= label_tag(:date_search, "Search by date", class: "search-tag") %>
+	<div class="inline marg-top bfh-datepicker" data-max="today" data-name="date" data-value="full_date">
 	</div>
-	<%= submit_tag("Search") %>
+	<%= submit_tag "Search", class: "submit" %>
 <% end %>
+</div>
+
 
 <h1>The Worst Call of the Day</h1>
 <h2>(<%=@date.strftime('%b %d, %Y')%>)</h2>
@@ -20,4 +24,6 @@
 
 
 <%= image_tag("part2.gif")%>
+
+</div>
 
