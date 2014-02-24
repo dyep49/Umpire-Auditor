@@ -1,5 +1,0 @@
-<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="13:05" game_pk="332107" game_time_et="01:05 PM" gameday_sw="Y">
-	<team type="home" code="hou" file_code="hou" abbrev="HOU" id="117" name="Houston" name_full="Houston Astros" name_brief="Astros" w="1" l="0" division_id="205" league_id="104" league="NL"/>
-	<team type="away" code="was" file_code="was" abbrev="WSH" id="120" name="Washington" name_full="Washington Nationals" name_brief="Nationals" w="0" l="1" division_id="204" league_id="104" league="NL"/>
-	<stadium id="2514" name="Osceola County Stadium" venue_w_chan_loc="USFL0248" location="Kissimmee, FL"/>
-</game>

@@ -1,5 +1,0 @@
-<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="13:05" game_pk="332126" game_time_et="03:05 PM" gameday_sw="Y">
-	<team type="home" code="cha" file_code="cws" abbrev="CWS" id="145" name="Chi White Sox" name_full="Chicago White Sox" name_brief="White Sox" w="0" l="1" division_id="202" league_id="103" league="AL"/>
-	<team type="away" code="lan" file_code="la" abbrev="LAD" id="119" name="LA Dodgers" name_full="Los Angeles Dodgers" name_brief="Dodgers" w="1" l="0" division_id="203" league_id="104" league="NL"/>
-	<stadium id="3809" name="Camelback Ranch" venue_w_chan_loc="USAZ0083" location="Glendale, AZ"/>
-</game>

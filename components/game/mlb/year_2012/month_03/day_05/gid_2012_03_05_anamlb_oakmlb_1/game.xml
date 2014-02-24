@@ -1,5 +1,0 @@
-<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="13:05" game_pk="332120" game_time_et="03:05 PM" gameday_sw="Y">
-	<team type="home" code="oak" file_code="oak" abbrev="OAK" id="133" name="Oakland" name_full="Oakland Athletics" name_brief="Athletics" w="3" l="2" division_id="200" league_id="103" league="AL"/>
-	<team type="away" code="ana" file_code="ana" abbrev="LAA" id="108" name="LA Angels" name_full="Los Angeles Angels" name_brief="Angels" w="1" l="0" division_id="200" league_id="103" league="AL"/>
-	<stadium id="2524" name="Phoenix Municipal Stadium" venue_w_chan_loc="USAZ0166" location="Phoenix, AZ"/>
-</game>

@@ -1,5 +1,0 @@
-<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="18:10" game_pk="332135" game_time_et="06:10 PM" gameday_sw="Y">
-	<team type="home" code="nyn" file_code="nym" abbrev="NYM" id="121" name="NY Mets" name_full="New York Mets" name_brief="Mets" w="0" l="1" division_id="204" league_id="104" league="NL"/>
-	<team type="away" code="was" file_code="was" abbrev="WSH" id="120" name="Washington" name_full="Washington Nationals" name_brief="Nationals" w="1" l="2" division_id="204" league_id="104" league="NL"/>
-	<stadium id="2856" name="Digital Domain Park" venue_w_chan_loc="USFL0419" location="Port St. Lucie, FL"/>
-</game>

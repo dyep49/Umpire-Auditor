@@ -1,5 +1,0 @@
-<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="13:05" game_pk="332132" game_time_et="03:05 PM" gameday_sw="E">
-	<team type="home" code="sdn" file_code="sd" abbrev="SD" id="135" name="San Diego" name_full="San Diego Padres" name_brief="Padres" w="0" l="2" division_id="203" league_id="104" league="NL"/>
-	<team type="away" code="sea" file_code="sea" abbrev="SEA" id="136" name="Seattle" name_full="Seattle Mariners" name_brief="Mariners" w="3" l="1" division_id="200" league_id="103" league="AL"/>
-	<stadium id="2530" name="Peoria Stadium" venue_w_chan_loc="USAZ0162" location="Peoria, AZ"/>
-</game>

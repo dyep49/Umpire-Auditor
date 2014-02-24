@@ -1,5 +1,0 @@
-<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="19:35" game_pk="332128" game_time_et="09:35 PM" gameday_sw="Y">
-	<team type="home" code="sfn" file_code="sf" abbrev="SF" id="137" name="San Francisco" name_full="San Francisco Giants" name_brief="Giants" w="1" l="2" division_id="203" league_id="104" league="NL"/>
-	<team type="away" code="mil" file_code="mil" abbrev="MIL" id="158" name="Milwaukee" name_full="Milwaukee Brewers" name_brief="Brewers" w="1" l="0" division_id="205" league_id="104" league="NL"/>
-	<stadium id="2532" name="Scottsdale Stadium" venue_w_chan_loc="USAZ0207" location="Scottsdale, AZ"/>
-</game>

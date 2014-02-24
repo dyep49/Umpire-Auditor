@@ -1,5 +1,0 @@
-<!--Copyright 2012 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt--><game type="S" local_game_time="13:05" game_pk="332134" game_time_et="01:05 PM" gameday_sw="Y">
-	<team type="home" code="det" file_code="det" abbrev="DET" id="116" name="Detroit" name_full="Detroit Tigers" name_brief="Tigers" w="3" l="0" division_id="202" league_id="103" league="AL"/>
-	<team type="away" code="tor" file_code="tor" abbrev="TOR" id="141" name="Toronto" name_full="Toronto Blue Jays" name_brief="Blue Jays" w="2" l="1" division_id="201" league_id="103" league="AL"/>
-	<stadium id="2511" name="Joker Marchant Stadium" venue_w_chan_loc="USFL0267" location="Lakeland, FL"/>
-</game>
