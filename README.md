@@ -1,6 +1,6 @@
-###Umpire Auditor has been heavily refactored and is now maintained at https://github.com/dyep49/Angular-Umpire-Auditor
-
 #Umpire Auditor
+
+###Umpire Auditor has been heavily refactored and is now maintained at https://github.com/dyep49/Angular-Umpire-Auditor
 
 
 After every game, the MLB releases an incredible amount of data. In fact, every single pitch brings back nearly 30 different characteristics. [Umpire Auditor](http://umpireauditor.herokuapp.com) uses this data to track (or audit) the performance of MLB umpires, primarily by calculating the rate at which these umpires correctly calculate balls and strikes.
